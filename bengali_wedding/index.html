@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>অনন্যা ও অর্ণব — শুভ বিবাহ</title>
+  <meta name="description" content="You are cordially invited to the Bengali wedding celebration of Ananya & Arnab — January 24, 2027">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Serif+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader" class="loader">
+    <div class="loader-content">
+      <div class="loader-motif">
+        <svg viewBox="0 0 120 120" class="loader-svg">
+          <circle cx="60" cy="60" r="50" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>
+          <circle cx="60" cy="60" r="40" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.2"/>
+          <path d="M60 10 Q75 35 60 60 Q45 35 60 10Z" fill="currentColor" opacity="0.15"/>
+          <path d="M60 110 Q75 85 60 60 Q45 85 60 110Z" fill="currentColor" opacity="0.15"/>
+          <path d="M10 60 Q35 45 60 60 Q35 75 10 60Z" fill="currentColor" opacity="0.15"/>
+          <path d="M110 60 Q85 45 60 60 Q85 75 110 60Z" fill="currentColor" opacity="0.15"/>
+        </svg>
+      </div>
+      <span class="loader-text">অ & অ</span>
+      <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="nav" class="nav">
+    <a href="#hero" class="nav-logo">
+      <span class="nav-logo-bengali">অনন্যা</span>
+      <span class="nav-logo-amp">&</span>
+      <span class="nav-logo-bengali">অর্ণব</span>
+    </a>
+    <div class="nav-links">
+      <a href="#story">Our Story</a>
+      <a href="#events">Events</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#venue">Venue</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#story">Our Story</a>
+    <a href="#events">Events</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#venue">Venue</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-topline reveal-up">
+        <span class="hero-conch">৳</span>
+        <span class="hero-pretext">শুভ বিবাহ</span>
+        <span class="hero-conch">৳</span>
+      </div>
+
+      <p class="hero-invite reveal-up delay-1">Together with their families</p>
+
+      <div class="hero-names-block reveal-up delay-2">
+        <h1 class="hero-name-bengali">অনন্যা</h1>
+        <div class="hero-amp-wrap">
+          <div class="hero-amp-line"></div>
+          <span class="hero-amp">&</span>
+          <div class="hero-amp-line"></div>
+        </div>
+        <h1 class="hero-name-bengali">অর্ণব</h1>
+      </div>
+
+      <div class="hero-names-english reveal-up delay-3">
+        <span>Ananya</span>
+        <span class="hero-dot">·</span>
+        <span>Arnab</span>
+      </div>
+
+      <div class="hero-divider reveal-up delay-4">
+        <svg viewBox="0 0 200 20" class="hero-divider-svg">
+          <path d="M0 10 Q50 0 100 10 Q150 20 200 10" fill="none" stroke="currentColor" stroke-width="0.8"/>
+          <circle cx="100" cy="10" r="3" fill="currentColor"/>
+        </svg>
+      </div>
+
+      <p class="hero-date reveal-up delay-4">January 24, 2027</p>
+      <p class="hero-venue reveal-up delay-5">The Oberoi Grand · Kolkata</p>
+
+      <a href="#story" class="hero-cta reveal-up delay-6">
+        <span>আমাদের গল্প</span>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M8 3v10M3 8l5 5 5-5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+    </div>
+
+    <!-- Alpona corner decorations -->
+    <div class="hero-corner hero-corner-tl"></div>
+    <div class="hero-corner hero-corner-tr"></div>
+    <div class="hero-corner hero-corner-bl"></div>
+    <div class="hero-corner hero-corner-br"></div>
+  </section>
+
+  <!-- Our Story -->
+  <section id="story" class="section story">
+    <div class="section-header">
+      <div class="section-motif reveal-up">
+        <svg viewBox="0 0 80 24" class="motif-svg"><path d="M0 12 Q20 2 40 12 Q60 22 80 12" fill="none" stroke="currentColor" stroke-width="0.8"/></svg>
+      </div>
+      <p class="section-label reveal-up">কীভাবে সব শুরু হলো</p>
+      <h2 class="section-title reveal-up">Our Story</h2>
+    </div>
+
+    <div class="story-timeline">
+      <div class="story-item reveal-up">
+        <div class="story-image">
+          <div class="story-image-placeholder" style="--hue: 0; --sat: 45%;"></div>
+          <div class="story-image-border"></div>
+        </div>
+        <div class="story-text">
+          <span class="story-date">Durga Puja, 2022</span>
+          <h3>প্রথম দেখা — First Meeting</h3>
+          <p>Amidst the dhak beats and fragrance of shiuli flowers during Kolkata's grandest Durga Puja, a chance meeting at a pandal hopping trail turned into hours of adda over mishti doi and phuchka. The city of joy brought two hearts together.</p>
+        </div>
+      </div>
+
+      <div class="story-item reverse reveal-up">
+        <div class="story-image">
+          <div class="story-image-placeholder" style="--hue: 40; --sat: 40%;"></div>
+          <div class="story-image-border"></div>
+        </div>
+        <div class="story-text">
+          <span class="story-date">Poila Boisakh, 2024</span>
+          <h3>ভালোবাসা — Falling in Love</h3>
+          <p>From early morning walks along the Hooghly to late-night conversations over cups of Darjeeling chai, each season deepened what began as friendship into something neither could live without. Kolkata's monsoons became their love story's backdrop.</p>
+        </div>
+      </div>
+
+      <div class="story-item reveal-up">
+        <div class="story-image">
+          <div class="story-image-placeholder" style="--hue: 20; --sat: 50%;"></div>
+          <div class="story-image-border"></div>
+        </div>
+        <div class="story-text">
+          <span class="story-date">Saraswati Puja, 2026</span>
+          <h3>প্রস্তাব — The Proposal</h3>
+          <p>On a golden afternoon at the Rajbari gardens in Shantiniketan, surrounded by palash flowers in full bloom, Arnab asked the question with a sindoor-red ring box. Through tears of joy, Ananya whispered "হ্যাঁ" — yes, a thousand times yes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section id="events" class="section events">
+    <div class="section-header">
+      <div class="section-motif reveal-up">
+        <svg viewBox="0 0 80 24" class="motif-svg"><path d="M0 12 Q20 2 40 12 Q60 22 80 12" fill="none" stroke="currentColor" stroke-width="0.8"/></svg>
+      </div>
+      <p class="section-label reveal-up">অনুষ্ঠানসূচি</p>
+      <h2 class="section-title reveal-up">Wedding Events</h2>
+    </div>
+
+    <div class="events-grid">
+      <div class="event-card reveal-up">
+        <div class="event-accent"></div>
+        <div class="event-icon-wrap">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+          </svg>
+        </div>
+        <h3>আশীর্বাদ</h3>
+        <h4>Ashirbaad</h4>
+        <div class="event-detail">
+          <p class="event-date-line">Friday, January 22</p>
+          <p class="event-time-line">6:00 PM onwards</p>
+          <p class="event-loc-line">The Oberoi Grand, Ballroom</p>
+        </div>
+        <p class="event-desc">The formal engagement blessing ceremony where both families come together to bless the couple and exchange gifts, followed by a lavish dinner.</p>
+        <span class="event-dress">Traditional Bengali Attire</span>
+      </div>
+
+      <div class="event-card featured reveal-up delay-1">
+        <div class="event-accent"></div>
+        <div class="event-icon-wrap">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <path d="M12 3c-1.5 0-3 .8-3 2.5S10.5 8 12 9.5c1.5-1.5 3-2.2 3-3.5S13.5 3 12 3z"/>
+            <path d="M12 9.5C9 12 4 14 4 18c0 2 2 3 4 3 1.5 0 3-.5 4-2 1 1.5 2.5 2 4 2 2 0 4-1 4-3 0-4-5-6-8-8.5z"/>
+          </svg>
+        </div>
+        <h3>গায়ে হলুদ</h3>
+        <h4>Gaye Holud</h4>
+        <div class="event-detail">
+          <p class="event-date-line">Saturday, January 23</p>
+          <p class="event-time-line">4:00 PM onwards</p>
+          <p class="event-loc-line">Rajbari Lawn, The Oberoi Grand</p>
+        </div>
+        <p class="event-desc">The turmeric ceremony — a joyous celebration of colour, music, and dance as haldi is applied to the bride and groom. Get ready for dhol beats, folk songs, and lots of fun.</p>
+        <span class="event-dress">Yellow & Gold Attire</span>
+      </div>
+
+      <div class="event-card reveal-up delay-2">
+        <div class="event-accent"></div>
+        <div class="event-icon-wrap">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+          </svg>
+        </div>
+        <h3>শুভ বিবাহ</h3>
+        <h4>Wedding Ceremony</h4>
+        <div class="event-detail">
+          <p class="event-date-line">Sunday, January 24</p>
+          <p class="event-time-line">7:00 PM — Shubho Lagna</p>
+          <p class="event-loc-line">The Grand Ballroom, The Oberoi Grand</p>
+        </div>
+        <p class="event-desc">The sacred wedding ceremony with Saat Paak, Shubho Drishti, mala badal, and Sindoor Daan — followed by a grand reception with dinner, music, and celebration.</p>
+        <span class="event-dress">Red & Gold / Formal Indian</span>
+      </div>
+
+      <div class="event-card reveal-up delay-3">
+        <div class="event-accent"></div>
+        <div class="event-icon-wrap">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8zM6 1v3M10 1v3M14 1v3"/>
+          </svg>
+        </div>
+        <h3>বৌভাত</h3>
+        <h4>Bou Bhaat</h4>
+        <div class="event-detail">
+          <p class="event-date-line">Monday, January 25</p>
+          <p class="event-time-line">1:00 PM onwards</p>
+          <p class="event-loc-line">Rajbari Lawn, The Oberoi Grand</p>
+        </div>
+        <p class="event-desc">The post-wedding lunch hosted by the groom's family welcoming the bride. A grand feast of traditional Bengali cuisine — the new bride serves rice to all guests.</p>
+        <span class="event-dress">Elegant Bengali Attire</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section gallery">
+    <div class="section-header">
+      <div class="section-motif reveal-up">
+        <svg viewBox="0 0 80 24" class="motif-svg"><path d="M0 12 Q20 2 40 12 Q60 22 80 12" fill="none" stroke="currentColor" stroke-width="0.8"/></svg>
+      </div>
+      <p class="section-label reveal-up">ছবির গল্প</p>
+      <h2 class="section-title reveal-up">Gallery</h2>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item gallery-tall reveal-up">
+        <div class="gallery-placeholder" style="--hue: 0; --sat: 40%;"></div>
+        <div class="gallery-overlay"><span>Puja Memories</span></div>
+      </div>
+      <div class="gallery-item reveal-up delay-1">
+        <div class="gallery-placeholder" style="--hue: 35; --sat: 35%;"></div>
+        <div class="gallery-overlay"><span>Victoria Memorial</span></div>
+      </div>
+      <div class="gallery-item reveal-up delay-2">
+        <div class="gallery-placeholder" style="--hue: 15; --sat: 45%;"></div>
+        <div class="gallery-overlay"><span>Shantiniketan</span></div>
+      </div>
+      <div class="gallery-item gallery-wide reveal-up delay-1">
+        <div class="gallery-placeholder" style="--hue: 25; --sat: 38%;"></div>
+        <div class="gallery-overlay"><span>The Proposal</span></div>
+      </div>
+      <div class="gallery-item reveal-up delay-2">
+        <div class="gallery-placeholder" style="--hue: 5; --sat: 42%;"></div>
+        <div class="gallery-overlay"><span>Engagement Day</span></div>
+      </div>
+      <div class="gallery-item reveal-up delay-1">
+        <div class="gallery-placeholder" style="--hue: 45; --sat: 30%;"></div>
+        <div class="gallery-overlay"><span>Together Forever</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Venue -->
+  <section id="venue" class="section venue">
+    <div class="section-header">
+      <div class="section-motif reveal-up">
+        <svg viewBox="0 0 80 24" class="motif-svg"><path d="M0 12 Q20 2 40 12 Q60 22 80 12" fill="none" stroke="currentColor" stroke-width="0.8"/></svg>
+      </div>
+      <p class="section-label reveal-up">বিবাহস্থল</p>
+      <h2 class="section-title reveal-up">Venue</h2>
+    </div>
+
+    <div class="venue-content reveal-up">
+      <div class="venue-card">
+        <div class="venue-map">
+          <div class="venue-map-placeholder">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>The Oberoi Grand, Kolkata</span>
+          </div>
+        </div>
+        <div class="venue-info">
+          <h3>The Oberoi Grand</h3>
+          <p class="venue-address">15, Jawaharlal Nehru Road<br>Kolkata, West Bengal 700013<br>India</p>
+          <div class="venue-details">
+            <div class="venue-detail-item">
+              <span class="venue-detail-label">Nearest Airport</span>
+              <span>Netaji Subhas Chandra Bose International (CCU) — 30 min</span>
+            </div>
+            <div class="venue-detail-item">
+              <span class="venue-detail-label">Nearest Station</span>
+              <span>Esplanade Metro — 5 min walk</span>
+            </div>
+            <div class="venue-detail-item">
+              <span class="venue-detail-label">Accommodations</span>
+              <span>Room block reserved at venue — mention "Ananya-Arnab Wedding"</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Countdown -->
+  <section id="countdown" class="section countdown">
+    <div class="countdown-bg-pattern"></div>
+    <div class="countdown-content">
+      <p class="section-label reveal-up">শুভ লগ্ন পর্যন্ত</p>
+      <h2 class="countdown-heading reveal-up">Until We Say "কবুল"</h2>
+      <div class="countdown-timer reveal-up" id="countdownTimer">
+        <div class="countdown-unit">
+          <span class="countdown-number" id="cd-days">000</span>
+          <span class="countdown-label">Days</span>
+        </div>
+        <div class="countdown-sep">:</div>
+        <div class="countdown-unit">
+          <span class="countdown-number" id="cd-hours">00</span>
+          <span class="countdown-label">Hours</span>
+        </div>
+        <div class="countdown-sep">:</div>
+        <div class="countdown-unit">
+          <span class="countdown-number" id="cd-minutes">00</span>
+          <span class="countdown-label">Minutes</span>
+        </div>
+        <div class="countdown-sep">:</div>
+        <div class="countdown-unit">
+          <span class="countdown-number" id="cd-seconds">00</span>
+          <span class="countdown-label">Seconds</span>
+        </div>
+      </div>
+      <p class="countdown-date reveal-up">January 24, 2027 · 7:00 PM IST</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-pattern"></div>
+    <div class="footer-content">
+      <div class="footer-motif">
+        <svg viewBox="0 0 120 40" class="footer-motif-svg">
+          <path d="M0 20 Q30 5 60 20 Q90 35 120 20" fill="none" stroke="currentColor" stroke-width="0.6"/>
+          <path d="M20 20 Q40 10 60 20 Q80 30 100 20" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.5"/>
+        </svg>
+      </div>
+      <p class="footer-bengali">অনন্যা ও অর্ণব</p>
+      <p class="footer-names">Ananya & Arnab</p>
+      <p class="footer-date">24 · 01 · 2027</p>
+      <p class="footer-note">শুভ বিবাহ · Made with ভালোবাসা</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

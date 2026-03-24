@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="modern" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arjun & Priya — Wedding Invitation</title>
+  <meta name="description" content="You are cordially invited to celebrate the wedding of Arjun & Priya — December 15, 2026">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&family=Great+Vibes&family=Noto+Serif+Bengali:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══ Opening Seal Screen ═══ -->
+  <div id="sealScreen" class="seal-screen">
+    <div class="seal-bg-pattern"></div>
+    <div class="seal-content">
+      <div class="seal-button" id="sealButton" role="button" tabindex="0" aria-label="Open invitation">
+        <svg class="seal-ring" viewBox="0 0 200 200">
+          <circle cx="100" cy="100" r="90" fill="none" stroke="currentColor" stroke-width="0.5" stroke-dasharray="4 6" opacity="0.4"/>
+          <circle cx="100" cy="100" r="78" fill="none" stroke="currentColor" stroke-width="0.3" opacity="0.25"/>
+        </svg>
+        <div class="seal-inner">
+          <span class="seal-monogram">A&P</span>
+        </div>
+      </div>
+      <p class="seal-hint" data-i18n="sealHint">Tap the seal to open</p>
+    </div>
+  </div>
+
+  <!-- ═══ Main Invitation ═══ -->
+  <main id="invitation" class="invitation">
+
+    <!-- Controls: Music, Theme, Language -->
+    <div class="controls" id="controls">
+      <button id="musicToggle" class="ctrl-btn" aria-label="Toggle music" title="Music">
+        <svg class="music-icon music-on" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+        </svg>
+        <svg class="music-icon music-off" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/><line x1="1" y1="1" x2="23" y2="23" stroke-width="2"/>
+        </svg>
+      </button>
+      <button id="themeToggle" class="ctrl-btn" aria-label="Switch theme" title="Switch theme">
+        <svg class="theme-icon theme-modern" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+        </svg>
+        <svg class="theme-icon theme-indian" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+        </svg>
+        <svg class="theme-icon theme-colorful" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+        </svg>
+      </button>
+      <div class="lang-switcher">
+        <button id="langToggle" class="ctrl-btn lang-btn" aria-label="Change language">
+          <span class="lang-label">EN</span>
+        </button>
+        <div class="lang-dropdown" id="langDropdown">
+          <button data-lang="en" class="lang-option active">English</button>
+          <button data-lang="hi" class="lang-option">हिन्दी</button>
+          <button data-lang="bn" class="lang-option">বাংলা</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav">
+      <a href="#hero" class="nav-logo">A <span>&</span> P</a>
+      <div class="nav-links">
+        <a href="#countdown" data-i18n="navDay">The Day</a>
+        <a href="#couple" data-i18n="navCouple">The Couple</a>
+        <a href="#events" data-i18n="navEvents">Events</a>
+        <a href="#gallery" data-i18n="navGallery">Gallery</a>
+        <a href="#venue" data-i18n="navVenue">Venue</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#countdown" data-i18n="navDay">The Day</a>
+      <a href="#couple" data-i18n="navCouple">The Couple</a>
+      <a href="#events" data-i18n="navEvents">Events</a>
+      <a href="#gallery" data-i18n="navGallery">Gallery</a>
+      <a href="#venue" data-i18n="navVenue">Venue</a>
+    </div>
+
+    <!-- ─── Hero ─── -->
+    <section id="hero" class="hero">
+      <div class="hero-pattern"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-corners">
+        <div class="corner corner-tl"></div>
+        <div class="corner corner-tr"></div>
+        <div class="corner corner-bl"></div>
+        <div class="corner corner-br"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-pretext anim-fade" data-i18n="heroInvite">You are cordially invited</p>
+        <div class="hero-names anim-fade anim-d1">
+          <h1 class="hero-name" data-i18n="groomName">Arjun</h1>
+          <div class="hero-amp-block">
+            <span class="hero-amp-line"></span>
+            <span class="hero-amp">&</span>
+            <span class="hero-amp-line"></span>
+          </div>
+          <h1 class="hero-name" data-i18n="brideName">Priya</h1>
+        </div>
+        <div class="hero-details anim-fade anim-d2">
+          <span class="hero-date">15 · 12 · 2026</span>
+          <span class="hero-location" data-i18n="heroLocation">Jaipur, Rajasthan</span>
+        </div>
+        <a href="#countdown" class="hero-cta anim-fade anim-d3">
+          <span data-i18n="heroExplore">Explore</span>
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+            <path d="M8 3v10M3 8l5 5 5-5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+      <div class="hero-scroll-hint"><div class="scroll-line"></div></div>
+    </section>
+
+    <!-- ─── Countdown ─── -->
+    <section id="countdown" class="section countdown-section">
+      <div class="section-header">
+        <p class="section-label reveal" data-i18n="countdownLabel">Save the date</p>
+        <h2 class="section-title reveal" data-i18n="countdownTitle">The Big Day</h2>
+      </div>
+      <div class="countdown-timer reveal" id="countdownTimer">
+        <div class="cd-unit">
+          <span class="cd-number" id="cd-days">000</span>
+          <span class="cd-label" data-i18n="cdDays">Days</span>
+        </div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit">
+          <span class="cd-number" id="cd-hours">00</span>
+          <span class="cd-label" data-i18n="cdHours">Hours</span>
+        </div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit">
+          <span class="cd-number" id="cd-minutes">00</span>
+          <span class="cd-label" data-i18n="cdMin">Min</span>
+        </div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit">
+          <span class="cd-number" id="cd-seconds">00</span>
+          <span class="cd-label" data-i18n="cdSec">Sec</span>
+        </div>
+      </div>
+      <p class="countdown-note reveal" data-i18n="countdownNote">With blessings of our families</p>
+    </section>
+
+    <!-- ─── Couple ─── -->
+    <section id="couple" class="section couple-section">
+      <div class="section-header">
+        <p class="section-label reveal" data-i18n="coupleLabel">Two souls, one journey</p>
+        <h2 class="section-title reveal" data-i18n="coupleTitle">The Couple</h2>
+      </div>
+      <div class="couple-grid">
+        <div class="couple-card reveal">
+          <div class="couple-photo">
+            <div class="couple-photo-placeholder" style="--hue: 210; --sat: 20%;"></div>
+            <div class="couple-photo-frame"></div>
+          </div>
+          <h3 class="couple-name" data-i18n="groomFull">Arjun Mehta</h3>
+          <p class="couple-parent" data-i18n="groomParents">Son of Mr. Rajesh & Mrs. Sunita Mehta</p>
+          <p class="couple-bio" data-i18n="groomBio">A dreamer with a golden heart, who believes every love story deserves a grand celebration.</p>
+        </div>
+        <div class="couple-divider reveal">
+          <div class="couple-divider-line"></div>
+          <svg viewBox="0 0 40 40" class="couple-heart">
+            <path d="M20 35 Q10 25 5 18 Q0 10 8 6 Q14 2 20 10 Q26 2 32 6 Q40 10 35 18 Q30 25 20 35Z" fill="none" stroke="currentColor" stroke-width="0.8"/>
+          </svg>
+          <div class="couple-divider-line"></div>
+        </div>
+        <div class="couple-card reveal anim-d1">
+          <div class="couple-photo">
+            <div class="couple-photo-placeholder" style="--hue: 340; --sat: 25%;"></div>
+            <div class="couple-photo-frame"></div>
+          </div>
+          <h3 class="couple-name" data-i18n="brideFull">Priya Sharma</h3>
+          <p class="couple-parent" data-i18n="brideParents">Daughter of Mr. Vikram & Mrs. Anjali Sharma</p>
+          <p class="couple-bio" data-i18n="brideBio">An artist at heart, who paints the world with love, laughter, and infinite grace.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Events ─── -->
+    <section id="events" class="section events-section">
+      <div class="section-header">
+        <p class="section-label reveal" data-i18n="eventsLabel">Three days of celebration</p>
+        <h2 class="section-title reveal" data-i18n="eventsTitle">The Festivities</h2>
+      </div>
+      <div class="events-timeline">
+        <div class="event-item reveal">
+          <div class="event-number">01</div>
+          <div class="event-content">
+            <p class="event-tagline" data-i18n="mehndiTag">The Art of Love</p>
+            <h3 class="event-name" data-i18n="mehndiName">Mehndi</h3>
+            <p class="event-desc" data-i18n="mehndiDesc">An intimate afternoon of intricate henna artistry, music, and celebration with close family and friends.</p>
+            <div class="event-details">
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <span data-i18n="mehndiDate">December 13, 2026</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                <span data-i18n="mehndiTime">4:00 PM onwards</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span data-i18n="mehndiVenue">Mehta Family Residence, Jaipur</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="event-item reveal">
+          <div class="event-number">02</div>
+          <div class="event-content">
+            <p class="event-tagline" data-i18n="sangeetTag">The Night of Stars</p>
+            <h3 class="event-name" data-i18n="sangeetName">Sangeet</h3>
+            <p class="event-desc" data-i18n="sangeetDesc">An enchanting evening of music, dance performances, and joyous celebrations under the stars.</p>
+            <div class="event-details">
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <span data-i18n="sangeetDate">December 14, 2026</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                <span data-i18n="sangeetTime">7:00 PM onwards</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span data-i18n="sangeetVenue">The Royal Ballroom, Taj Jai Mahal Palace</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="event-item featured reveal">
+          <div class="event-number">03</div>
+          <div class="event-content">
+            <p class="event-tagline" data-i18n="weddingTag">The Sacred Union</p>
+            <h3 class="event-name" data-i18n="weddingName">Wedding</h3>
+            <p class="event-desc" data-i18n="weddingDesc">The sacred union of two souls, celebrated with traditional Vedic rituals amidst royal splendor.</p>
+            <div class="event-details">
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <span data-i18n="weddingDate">December 15, 2026</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                <span data-i18n="weddingTime">10:00 AM — Baraat at 9:00 AM</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span data-i18n="weddingVenue">Samode Palace, Jaipur</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Gallery ─── -->
+    <section id="gallery" class="section gallery-section">
+      <div class="section-header">
+        <p class="section-label reveal" data-i18n="galleryLabel">Captured moments</p>
+        <h2 class="section-title reveal" data-i18n="galleryTitle">Gallery</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-tall reveal">
+          <div class="gallery-ph" style="--hue: 25; --sat: 35%;"></div>
+          <div class="gallery-hover"><span data-i18n="galImg1">Pre-Wedding</span></div>
+        </div>
+        <div class="gallery-item reveal">
+          <div class="gallery-ph" style="--hue: 340; --sat: 30%;"></div>
+          <div class="gallery-hover"><span data-i18n="galImg2">Mehendi</span></div>
+        </div>
+        <div class="gallery-item reveal">
+          <div class="gallery-ph" style="--hue: 45; --sat: 40%;"></div>
+          <div class="gallery-hover"><span data-i18n="galImg3">Sangeet Night</span></div>
+        </div>
+        <div class="gallery-item gallery-wide reveal">
+          <div class="gallery-ph" style="--hue: 15; --sat: 38%;"></div>
+          <div class="gallery-hover"><span data-i18n="galImg4">Haldi Ceremony</span></div>
+        </div>
+        <div class="gallery-item reveal">
+          <div class="gallery-ph" style="--hue: 0; --sat: 45%;"></div>
+          <div class="gallery-hover"><span data-i18n="galImg5">The Vows</span></div>
+        </div>
+        <div class="gallery-item reveal">
+          <div class="gallery-ph" style="--hue: 35; --sat: 28%;"></div>
+          <div class="gallery-hover"><span data-i18n="galImg6">Together Forever</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Venue ─── -->
+    <section id="venue" class="section venue-section">
+      <div class="section-header">
+        <p class="section-label reveal" data-i18n="venueLabel">Where it all happens</p>
+        <h2 class="section-title reveal" data-i18n="venueTitle">The Venue</h2>
+      </div>
+      <div class="venue-card reveal">
+        <div class="venue-visual">
+          <div class="venue-placeholder">
+            <div class="venue-qr">
+              <img id="venueQr" src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fmaps.google.com%2F%3Fq%3DSamode%2BPalace%2BJaipur&bgcolor=141414&color=c8a97d&format=svg" alt="QR Code — Scan for directions" class="venue-qr-img" width="180" height="180" loading="lazy">
+              <p class="venue-qr-label" data-i18n="venueQrLabel">Scan for directions</p>
+            </div>
+          </div>
+        </div>
+        <div class="venue-info">
+          <h3 class="venue-name" data-i18n="venueName">Samode Palace</h3>
+          <p class="venue-desc" data-i18n="venueDesc">A 475-year-old royal heritage palace nestled in the Aravalli hills — hand-painted walls, mirror-work halls, and manicured Mughal gardens await.</p>
+          <a href="https://maps.google.com/?q=Samode+Palace+Jaipur" target="_blank" rel="noopener" class="venue-directions">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span data-i18n="venueDirections">Get Directions</span>
+          </a>
+          <p class="venue-address" data-i18n="venueAddress">Village Samode, Tehsil Chomu, Jaipur</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Countdown Bottom ─── -->
+    <section class="section countdown-bottom">
+      <div class="countdown-bottom-content">
+        <p class="countdown-bottom-text reveal" data-i18n="footerWaiting">We can't wait to celebrate with you</p>
+      </div>
+    </section>
+
+    <!-- ─── Footer ─── -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-ornament">
+          <svg viewBox="0 0 200 24" class="footer-ornament-svg">
+            <path d="M0 12 Q50 2 100 12 Q150 22 200 12" fill="none" stroke="currentColor" stroke-width="0.6"/>
+          </svg>
+        </div>
+        <p class="footer-names">Arjun & Priya</p>
+        <p class="footer-date">15 · 12 · 2026</p>
+        <p class="footer-note" data-i18n="footerNote">Made with love in Jaipur</p>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
