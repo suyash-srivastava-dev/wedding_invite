@@ -18,12 +18,16 @@
       brideFull: 'Chandra Haldar', brideParents: 'Beloved daughter of the Haldar Family',
       brideBio: 'An artist at heart, who paints the world with love, laughter, and infinite grace.',
       eventsLabel: 'Celebrations of Love', eventsTitle: 'The Festivities',
-      mehndiTag: 'Auspicious Beginnings', mehndiName: 'Haldi Ceremony',
-      mehndiDesc: 'An intimate morning of marigold flowers, turmeric paste, and celebration with close family and friends.',
-      mehndiDate: 'Tuesday, 21 April 2026', mehndiTime: '9:00 AM', mehndiVenue: 'Home: 14/78 Trilokpuri',
+      mehndiTag: 'Auspicious Beginnings', mehndiName: 'Mehndi Ceremony',
+      mehndiDesc: 'An intimate afternoon of intricate henna artistry, music, and celebration with close family and friends.',
+            mehndiDate: 'Tuesday, 21 April 2026', mehndiTime: '9:00 AM', 
+      mehndiVenueGroom: 'Home: 14/78 Trilokpuri, Delhi',
+      mehndiVenueBride: 'Haldar Niwas, Vaishali Nagar, Jaipur',
       sangeetTag: 'The Night of Stars', sangeetName: 'Sangeet',
       sangeetDesc: 'An enchanting evening of music, dance performances, and joyous celebrations under the stars.',
-      sangeetDate: 'December 14, 2026', sangeetTime: '7:00 PM onwards', sangeetVenue: 'The Royal Ballroom',
+      sangeetDate: 'Monday, 20 April 2026', sangeetTime: '7:00 PM onwards', 
+      sangeetVenueGroom: 'The Royal Ballroom, Park Hyatt, Delhi',
+      sangeetVenueBride: 'Samode Palace, Jaipur',
       weddingTag: 'The Sacred Union', weddingName: 'Wedding Ceremony',
       weddingDesc: 'A joyous celebration as we tie the knot. We look forward to celebrating with you!',
       weddingDate: 'Tuesday, 21 April 2026', weddingTime: 'Welcome of Baraat: 8:00 PM', weddingVenue: 'MARINA DREAMS BANQUET, Wazirpur Industrial Area, Ashok Vihar, Delhi - 10052',
@@ -32,7 +36,7 @@
       receptionDate: 'April 23, 2026', receptionTime: '7:00 PM onwards', receptionVenue: 'S.K EASTEND BANQUET, Mayur Vihar Extension, Delhi',
       galleryLabel: 'Captured moments', galleryTitle: 'Gallery',
       galImg1: 'Pre-Wedding', galImg2: 'Mehendi', galImg3: 'Sangeet Night',
-      galImg4: 'Haldi Ceremony', galImg5: 'The Vows', galImg6: 'Together Forever',
+      galImg4: 'Mehndi & Haldi', galImg5: 'The Vows', galImg6: 'Together Forever',
       venueLabel: 'Where it all happens', venueTitle: 'The Venue',
       venueName: 'MARINA DREAMS BANQUET',
       venueDesc: 'Wazirpur Industrial Area, Ashok Vihar, Delhi - 10052',
@@ -46,88 +50,150 @@
       navDay: 'शुभ दिन', navCouple: 'दूल्हा-दुल्हन', navEvents: 'कार्यक्रम', navGallery: 'गैलरी', navVenue: 'स्थान',
       heroInvite: 'आप सादर आमंत्रित हैं',
       groomName: 'किशोर', brideName: 'चंद्रा',
-      heroLocation: 'जयपुर, राजस्थान',
+      heroLocation: 'दिल्ली',
       heroExplore: 'देखें',
-      countdownLabel: 'तारीख़ याद रखें', countdownTitle: 'शुभ दिन',
+      countdownLabel: 'मंगलवार, 21 अप्रैल 2026', countdownTitle: 'शुभ दिन',
       cdDays: 'दिन', cdHours: 'घंटे', cdMin: 'मिनट', cdSec: 'सेकंड',
-      countdownNote: 'हमारे परिवारों के आशीर्वाद के साथ',
+      countdownNote: 'श्रीमती अनिमा एवं श्री सोमनाथ दास आपको सादर आमंत्रित करते हैं',
       coupleLabel: 'दो आत्माएँ, एक सफ़र', coupleTitle: 'दूल्हा-दुल्हन',
-      groomFull: 'किशोर दास', groomParents: 'श्री राजेश एवं श्रीमती सुनीता दास के सुपुत्र',
+      groomFull: 'किशोर दास', groomParents: 'श्रीमती अनिमा एवं श्री सोमनाथ दास के सुपुत्र',
       groomBio: 'सुनहरे दिल का एक सपने देखने वाला, जो मानता है कि हर प्रेम कहानी एक भव्य उत्सव की हक़दार है।',
-      brideFull: 'चंद्रा हालदार', brideParents: 'श्री विक्रम एवं श्रीमती अंजलि हालदार की सुपुत्री',
+      brideFull: 'चंद्रा हालदार', brideParents: 'हालदार परिवार की सुपुत्री',
       brideBio: 'दिल से एक कलाकार, जो दुनिया को प्यार, हँसी और अनंत ख़ूबसूरती से रंगती है।',
-      eventsLabel: 'तीन दिन का उत्सव', eventsTitle: 'कार्यक्रम',
-      mehndiTag: 'प्रेम की कला', mehndiName: 'मेहंदी',
-      mehndiDesc: 'परिवार और करीबी दोस्तों के साथ मेहंदी, संगीत और उत्सव की एक अंतरंग दोपहर।',
-      mehndiDate: '21 अप्रैल, 2026', mehndiTime: 'शाम 4:00 बजे से', mehndiVenue: 'दास परिवार निवास, जयपुर',
+      eventsLabel: 'प्रेम के उत्सव', eventsTitle: 'कार्यक्रम',
+      mehndiTag: 'शुभ शुरुआत', mehndiName: 'मेहंदी और हल्दी',
+      mehndiDesc: 'परिवार और करीबी दोस्तों के साथ मेहंदी, फूलों और उत्सव की एक अंतरंग दोपहर।',
+            mehndiDate: 'मंगलवार, 21 अप्रैल 2026', mehndiTime: 'सुबह 9:00 बजे', 
+      mehndiVenueGroom: 'निवास: 14/78 त्रिलोकपुरी, दिल्ली',
+      mehndiVenueBride: 'हालदार निवास, वैशाली नगर, जयपुर',
       sangeetTag: 'तारों भरी रात', sangeetName: 'संगीत',
       sangeetDesc: 'तारों के नीचे संगीत, नृत्य प्रदर्शन और आनंदमय उत्सव की एक मनमोहक शाम।',
-      sangeetDate: '21 अप्रैल, 2026', sangeetTime: 'शाम 7:00 बजे से', sangeetVenue: 'द रॉयल बॉलरूम, ताज जय महल पैलेस',
+      sangeetDate: 'सोमवार, 20 अप्रैल 2026', sangeetTime: 'शाम 7:00 बजे से', 
+      sangeetVenueGroom: 'द रॉयल बॉलरूम, दिल्ली',
+      sangeetVenueBride: 'सामोद पैलेस, जयपुर',
       weddingTag: 'पवित्र बंधन', weddingName: 'विवाह',
-      weddingDesc: 'दो आत्माओं का पवित्र मिलन, पारंपरिक वैदिक रीतियों के साथ शाही भव्यता में।',
-      weddingDate: '21 अप्रैल, 2026', weddingTime: 'सुबह 10:00 बजे — बारात सुबह 9:00 बजे', weddingVenue: 'सामोद पैलेस, जयपुर',
-      receptionTag: 'एक भव्य उत्सव', receptionName: 'रिसेप्शन (प्रीतिभोज)',
+      weddingDesc: 'दो आत्माओं का पवित्र मिलन, पारंपरिक रीति-रिवाजों के साथ।',
+      weddingDate: 'मंगलवार, 21 अप्रैल 2026', weddingTime: 'बारात का स्वागत: रात 8:00 बजे', weddingVenue: 'मरीना ड्रीम्स बैंक्वेट, वज़ीरपुर, दिल्ली',
+      receptionTag: 'एक भव्य उत्सव', receptionName: 'प्रीतिभोज (रिसेप्शन)',
       receptionDesc: 'श्री सोमनाथ दास एवं श्रीमती अनिमा दास आपको विवाह रिसेप्शन में सस्नेह आमंत्रित करते हैं।',
-      receptionDate: '23 अप्रैल, 2026', receptionTime: 'शाम 7:00 बजे से', receptionVenue: 'एस.के ईस्टएंड बैंक्वेट, मयूर विहार एक्सटेंशन, दिल्ली',
+      receptionDate: '23 अप्रैल, 2026', receptionTime: 'शाम 7:00 बजे से', receptionVenue: 'एस.के ईस्टएंड बैंक्वेट, मयूर विहार, दिल्ली',
       galleryLabel: 'कैद किए गए पल', galleryTitle: 'गैलरी',
       galImg1: 'प्री-वेडिंग', galImg2: 'मेहंदी', galImg3: 'संगीत की रात',
       galImg4: 'हल्दी', galImg5: 'वचन', galImg6: 'सदा साथ',
       venueLabel: 'जहाँ सब कुछ होगा', venueTitle: 'स्थान',
-      venueName: 'सामोद पैलेस',
-      venueDesc: 'अरावली की पहाड़ियों में बसा 475 साल पुराना शाही विरासत महल — हाथ से पेंट की गई दीवारें, शीशे की कारीगरी और मुग़ल बागान।',
-      venueDirections: 'दिशा-निर्देश', venueAddress: 'गाँव सामोद, तहसील चोमू, जयपुर',
+      venueName: 'मरीना ड्रीम्स बैंक्वेट',
+      venueDesc: 'वज़ीरपुर, अशोक विहार, दिल्ली - 110052',
+      venueDirections: 'दिशा-निर्देश', venueAddress: 'वज़ीरपुर, दिल्ली',
       venueQrLabel: 'दिशा के लिए स्कैन करें',
       footerWaiting: 'हम आपके साथ जश्न मनाने के लिए बेताब हैं',
-      footerNote: 'जयपुर से प्यार के साथ बनाया',
+      footerNote: 'Made with ❤️',
     },
     bn: {
       sealHint: 'খুলতে ট্যাপ করুন',
       navDay: 'শুভ দিন', navCouple: 'বর-কনে', navEvents: 'অনুষ্ঠান', navGallery: 'গ্যালারি', navVenue: 'স্থান',
-      heroInvite: 'আপনাকে সাদর আমন্ত্রণ জানানো হচ্ছে',
+      heroInvite: 'আপনি সাদর আমন্ত্রিত',
       groomName: 'কিশোর', brideName: 'চন্দ্রা',
-      heroLocation: 'জয়পুর, রাজস্থান',
-      heroExplore: 'দেখুন',
-      countdownLabel: 'তারিখটি মনে রাখুন', countdownTitle: 'শুভ দিন',
+      heroLocation: 'দিল্লি',
+      heroExplore: 'देखুন',
+      countdownLabel: 'মঙ্গলবার, ২১ এপ্রিল ২০২৬', countdownTitle: 'শুভ দিন',
       cdDays: 'দিন', cdHours: 'ঘণ্টা', cdMin: 'মিনিট', cdSec: 'সেকেন্ড',
-      countdownNote: 'আমাদের পরিবারের আশীর্বাদে',
+      countdownNote: 'শ্রীমতী অনিমা ও শ্রী সোমনাথ দাস আপনাকে সাদর আমন্ত্রণ জানাচ্ছেন',
       coupleLabel: 'দুটি আত্মা, একটি পথ', coupleTitle: 'বর-কনে',
-      groomFull: 'কিশোর দাস', groomParents: 'শ্রী রাজেশ ও শ্রীমতী সুনীতা দাসের পুত্র',
-      groomBio: 'সোনার হৃদয়ের একজন স্বপ্নদ্রষ্টা, যিনি বিশ্বাস করেন প্রতিটি প্রেমের গল্প একটি মহান উদযাপনের যোগ্য।',
-      brideFull: 'চন্দ্রা হালদার', brideParents: 'শ্রী বিক্রম ও শ্রীমতী অঞ্জলি হালদারের কন্যা',
-      brideBio: 'হৃদয়ে একজন শিল্পী, যিনি পৃথিবীকে ভালোবাসা, হাসি আর অসীম সৌন্দর্যে রাঙিয়ে তোলেন।',
-      eventsLabel: 'তিন দিনের উৎসব', eventsTitle: 'অনুষ্ঠানমালা',
-      mehndiTag: 'ভালোবাসার শিল্প', mehndiName: 'মেহেন্দি',
-      mehndiDesc: 'পরিবার ও ঘনিষ্ঠ বন্ধুদের সাথে মেহেন্দি, সঙ্গীত ও উৎসবের একটি আন্তরিক বিকেল।',
-      mehndiDate: '২১ এপ্রিল, ২০২৬', mehndiTime: 'বিকেল ৪:০০ টা থেকে', mehndiVenue: 'দাস পরিবার নিবাস, জয়পুর',
+      groomFull: 'কিশোর দাস', groomParents: 'শ্রীমতী অনিমা ও শ্রী সোমনাথ দাসের পুত্র',
+      groomBio: 'সোনার হৃদয়ের একজন স্বপ্নদ্বষ্টা, যিনি বিশ্বাস করেন প্রতিটি প্রেমের গল্প একটি মহান উদযাপনের যোগ্য।',
+      brideFull: 'চন্দ্রা হালদার', brideParents: 'হালদার পরিবারের কন্যা',
+      brideBio: 'হৃদয়ে একজন শিল্পী, যিনি পৃথিবীকে ভালোবাসা, হাসি আর অসীম সৌন্দর্যে রাঙিয়ে তোলেন।',
+      eventsLabel: 'ভালোবাসার উদযাপন', eventsTitle: 'অনুষ্ঠানমালা',
+      mehndiTag: 'শুভ সূচনা', mehndiName: 'মেহেন্দি ও হলুদ অনুষ্ঠান',
+      mehndiDesc: 'পরিবার ও ঘনিষ্ঠ বন্ধুদের সাথে মেহেন্দি, ফুলের মেলা আর রূপকথার মতো এক সকাল।',
+      mehndiDate: 'মঙ্গলবার, ২১ এপ্রিল ২০২৬', mehndiTime: 'সকাল ৯:০০ টা', mehndiVenue: 'বাসভবন: ১৪/৭৮ ত্রিলোকপুরী, দিল্লি',
       sangeetTag: 'তারাভরা রাত', sangeetName: 'সঙ্গীত',
       sangeetDesc: 'তারার নীচে সঙ্গীত, নৃত্য পরিবেশনা ও আনন্দময় উদযাপনের এক মুগ্ধকর সন্ধ্যা।',
-      sangeetDate: '২১ এপ্রিল, ২০২৬', sangeetTime: 'সন্ধ্যা ৭:০০ টা থেকে', sangeetVenue: 'দ্য রয়্যাল বলরুম, তাজ জয় মহল প্যালেস',
+      sangeetDate: 'সোমবার, ২০ এপ্রিল ২০২৬', sangeetTime: 'সন্ধ্যা ৭:০০ টা থেকে', sangeetVenue: 'দ্য রয়্যাল বলরুম',
       weddingTag: 'পবিত্র মিলন', weddingName: 'বিবাহ',
       weddingDesc: 'দুই আত্মার পবিত্র মিলন, ঐতিহ্যবাহী বৈদিক রীতিতে রাজকীয় জাঁকজমকে।',
-      weddingDate: '২১ এপ্রিল, ২০২৬', weddingTime: 'সকাল ১০:০০ টা — বরযাত্রী সকাল ৯:০০ টা', weddingVenue: 'সামোদ প্যালেস, জয়পুর',
-      receptionTag: 'এক আনন্দময় উদযাপন', receptionName: 'রিসেপশন (প্রীতিভোজ)',
-      receptionDesc: 'শ্রী সোমনাথ দাস ও শ্রীমতি অনিমা দাস আপনাকে বিবাহ রিসেপশনে সাদর আমন্ত্রণ জানাচ্ছেন। বিনীত: দাস পরিবার।',
-      receptionDate: '২৩ এপ্রিল, ২০২৬', receptionTime: 'সন্ধ্যা ৭:০০ টা থেকে', receptionVenue: 'এস.কে ইস্টএন্ড ব্যাংকোয়েট, ময়ূর বিহার এক্সটেনশন, দিল্লি',
+      weddingDate: 'মঙ্গলবার, ২১ এপ্রিল ২০২৬', weddingTime: 'বরযাত্রী বরণ: রাত ৮:০০ টা', weddingVenue: 'মেরিন ড্রীমস ব্যাংকোয়েট, দিল্লি',
+      receptionTag: 'এক আনন্দময় উদযাপন', receptionName: 'রিসেপশন',
+      receptionDesc: 'শ্রী সোমনাথ দাস ও শ্রীমতি অনিমা দাস আপনাকে বিবাহ রিসেপশনে সাদর আমন্ত্রণ জানাচ্ছেন।',
+      receptionDate: '২৩ এপ্রিল, ২০২৬', receptionTime: 'সন্ধ্যা ৭:০০ টা থেকে', receptionVenue: 'এস.কে ইস্টএন্ড ব্যাংকোয়েট, দিল্লি',
       galleryLabel: 'ধরে রাখা মুহূর্ত', galleryTitle: 'গ্যালারি',
       galImg1: 'প্রি-ওয়েডিং', galImg2: 'মেহেন্দি', galImg3: 'সঙ্গীতের রাত',
       galImg4: 'হলুদ অনুষ্ঠান', galImg5: 'পবিত্র প্রতিশ্রুতি', galImg6: 'চিরসাথী',
       venueLabel: 'যেখানে সব হবে', venueTitle: 'স্থান',
-      venueName: 'সামোদ প্যালেস',
-      venueDesc: 'আরাবল্লী পাহাড়ে অবস্থিত ৪৭৫ বছরের পুরনো রাজকীয় ঐতিহ্য প্রাসাদ — হাতে আঁকা দেয়াল, আয়নার কারুকাজ ও মুঘল বাগান।',
-      venueDirections: 'দিকনির্দেশ', venueAddress: 'গ্রাম সামোদ, তহসিল চোমু, জয়পুর',
+      venueName: 'মেরিনা ড্রিমস ব্যাংকোয়েট',
+      venueDesc: 'ওয়াজিরপুর ইন্ডাস্ট্রিয়াল এরিয়া, দিল্লি',
+      venueDirections: 'দিকনির্দেশ', venueAddress: 'দিল্লি',
       venueQrLabel: 'দিকনির্দেশের জন্য স্ক্যান করুন',
       footerWaiting: 'আপনার সাথে উদযাপন করতে আমরা অধীর আগ্রহে অপেক্ষা করছি',
-      footerNote: 'জয়পুর থেকে ভালোবাসায় তৈরি',
+      footerNote: 'Made with ❤️',
     }
   };
 
   const LANG_LABELS = { en: 'EN', hi: 'हि', bn: 'বা' };
   let currentLang = 'en';
 
+  const SIDE_CONFIG = {
+    groom: {
+      en: {
+        mehndiVenue: 'Home: 14/78 Trilokpuri, Delhi',
+        sangeetVenue: 'The Royal Ballroom, Park Hyatt, Delhi',
+        venueName: 'PARK HYATT BALLROOM',
+        venueDesc: 'Asset No. 01, Aerocity, New Delhi, 110037',
+        venueAddress: 'Aerocity, New Delhi',
+        venueMaps: 'https://maps.app.goo.gl/3q6Z1v1V1v1V1v1V1',
+      },
+      hi: {
+        mehndiVenue: 'निवास: 14/78 त्रिलोकपुरी, दिल्ली',
+        sangeetVenue: 'द रॉयल बॉलरूम, पार्क हयात, दिल्ली',
+        venueName: 'पार्क हयात बॉलरूम',
+        venueDesc: 'एरोसिटी, नई दिल्ली, 110037',
+        venueAddress: 'एरोसिटी, नई दिल्ली',
+      },
+      bn: {
+        mehndiVenue: 'বাসভবন: ১৪/৭৮ ত্রিলোকপুরী, দিল্লি',
+        sangeetVenue: 'দ্য রয়্যাল বলরুম, পার্ক হায়াত, দিল্লি',
+        venueName: 'পার্ক হায়াত বলরুম',
+        venueDesc: 'অ্যারোসিটি, নিউ দিল্লি, ১১০০৩৭',
+        venueAddress: 'নিউ দিল্লি',
+      }
+    },
+    bride: {
+      en: {
+        mehndiVenue: 'Haldar Niwas, Vaishali Nagar, Jaipur',
+        sangeetVenue: 'Samode Palace, Jaipur',
+        venueName: 'SAMODE PALACE',
+        venueDesc: 'Village Samode, Tehsil Chomu, Jaipur, Rajasthan 303806',
+        venueAddress: 'Samode, Jaipur',
+        venueMaps: 'https://maps.app.goo.gl/pQo2wiowwueSvJX69',
+      },
+      hi: {
+        mehndiVenue: 'हालदार निवास, वैशाली नगर, जयपुर',
+        sangeetVenue: 'सामोद पैलेस, जयपुर',
+        venueName: 'सामोद पैलेस',
+        venueDesc: 'गाँव सामोद, तहसील चोमू, जयपुर, राजस्थान',
+        venueAddress: 'सामोद, जयपुर',
+      },
+      bn: {
+        mehndiVenue: 'হালদার নিবাস, বৈশালী নগর, জয়পুর',
+        sangeetVenue: 'সামোদ প্যালেস, জয়পুর',
+        venueName: 'সামোদ প্যালেস',
+        venueDesc: 'গ্রাম সামোদ, তহসিল চোমু, জয়পুর, রাজস্থান',
+        venueAddress: 'জয়পুর',
+      }
+    }
+  };
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const currentSide = urlParams.get('side');
+
   function applyLanguage(lang) {
     currentLang = lang;
-    const strings = TRANSLATIONS[lang];
+    let strings = {...TRANSLATIONS[lang]};
     if (!strings) return;
+
+    if (currentSide && SIDE_CONFIG[currentSide] && SIDE_CONFIG[currentSide][lang]) {
+      strings = {...strings, ...SIDE_CONFIG[currentSide][lang]};
+    }
 
     document.documentElement.setAttribute('data-lang', lang);
 
@@ -139,7 +205,44 @@
     const langLabel = document.querySelector('.lang-label');
     if (langLabel) langLabel.textContent = LANG_LABELS[lang];
 
+    // UPDATED FILTERING LOGIC
+    if (currentSide) {
+      document.querySelectorAll('.event-item').forEach(el => {
+        const type = el.getAttribute('data-event-type');
+        if (type === 'mehndi' || type === 'sangeet') {
+          el.classList.remove('side-filtered-out');
+        } else {
+          el.classList.add('side-filtered-out');
+        }
+      });
+      // Also potentially hide Wedding/Reception nav links
+      document.querySelectorAll('.nav-links a, #mobileMenu a').forEach(a => {
+        const href = a.getAttribute('href');
+        // Currently we don't have enough refined nav but we could if needed.
+      });
+    } else {
+      // No side parameter: Show all 4 events
+      document.querySelectorAll('.event-item').forEach(el => {
+        el.classList.remove('side-filtered-out');
+      });
+    }
+
+    if (currentSide && SIDE_CONFIG[currentSide][lang] && SIDE_CONFIG[currentSide][lang].venueMaps) {
+      const mapsLink = document.querySelector('.venue-directions');
+      if (mapsLink) mapsLink.setAttribute('href', SIDE_CONFIG[currentSide][lang].venueMaps);
+      
+      const qrImg = document.getElementById('venueQr');
+      if (qrImg) {
+        const qrData = encodeURIComponent(SIDE_CONFIG[currentSide][lang].venueMaps);
+        qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${qrData}&format=svg`;
+      }
+    }
+
     document.querySelectorAll('.lang-option').forEach(btn => {
+      const baseHref = btn.getAttribute('href');
+      if (currentSide) {
+        btn.setAttribute('href', baseHref.split('?')[0] + '?side=' + currentSide);
+      }
       btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
     });
   }
@@ -176,14 +279,12 @@
         const petal = document.createElement('div');
         petal.className = 'petal';
         petal.style.left = Math.random() * 100 + 'vw';
-        petal.style.animationDuration = (Math.random() * 3 + 4) + 's'; // 4-7 seconds to fall
+        petal.style.animationDuration = (Math.random() * 3 + 4) + 's';
         petal.style.animationDelay = (Math.random() * 2) + 's';
-        // Random sway distance between -40px and +40px
         petal.style.setProperty('--sway', (Math.random() * 2 - 1) * 40 + 'px');
         container.appendChild(petal);
       }
 
-      // Cleanup
       setTimeout(() => container.remove(), 8000);
     }
 
@@ -199,7 +300,6 @@
         }, 300);
       }, 1600);
       
-      // Auto-play music reliably via direct user click
       const audio = document.getElementById('bgMusic');
       if (audio && audio.paused) {
         audio.play().catch(e => console.log('Music play failed:', e));
@@ -208,7 +308,6 @@
 
     sealButton.addEventListener('click', openInvitation);
     sealScreen.addEventListener('click', (e) => {
-      // Prevent opening twice if clicking exactly on button
       if (e.target !== sealButton) openInvitation();
     });
     sealButton.addEventListener('keydown', e => {
@@ -250,38 +349,12 @@
   }
 
   function initControls() {
-    const musicBtn = document.getElementById('musicToggle');
-    const musicLabel = document.getElementById('musicBtnLabel');
     const langBtn = document.getElementById('langToggle');
     const langDropdown = document.getElementById('langDropdown');
     const audio = document.getElementById('bgMusic');
 
-    if (musicBtn && audio) {
+    if (audio) {
       audio.volume = 0.35;
-
-      function updateMusicUI() {
-        if (!audio.paused) {
-          musicBtn.classList.remove('muted');
-          if (musicLabel) musicLabel.textContent = 'PAUSE MUSIC';
-        } else {
-          musicBtn.classList.add('muted');
-          if (musicLabel) musicLabel.textContent = 'PLAY MUSIC';
-        }
-      }
-
-      audio.addEventListener('play', updateMusicUI);
-      audio.addEventListener('pause', updateMusicUI);
-
-      musicBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        if (!audio.paused) {
-          audio.pause();
-        } else {
-          audio.play().catch(() => {});
-        }
-      });
-      
-      updateMusicUI();
     }
 
     if (langBtn && langDropdown) {
@@ -292,6 +365,18 @@
 
       document.addEventListener('click', () => langDropdown.classList.remove('open'));
     }
+
+    const htmlLang = document.documentElement.getAttribute('data-lang') || 'en';
+    applyLanguage(htmlLang);
+
+    document.querySelectorAll('.lang-option').forEach(opt => {
+      opt.addEventListener('click', e => {
+        const href = opt.getAttribute('href');
+        if (href.includes('hindi')) applyLanguage('hi');
+        else if (href.includes('bengali')) applyLanguage('bn');
+        else applyLanguage('en');
+      });
+    });
   }
 
   function initScrollReveal() {

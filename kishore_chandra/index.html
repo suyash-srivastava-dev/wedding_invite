@@ -203,45 +203,101 @@
         <h2 class="section-title reveal" data-i18n="eventsTitle">The Festivities</h2>
       </div>
       <div class="events-timeline">
-        <div class="event-item reveal">
-          <div class="event-image-container">
-            <div class="event-number">01</div>
-            <img src="assets/gallery_4.png" alt="Haldi Image" class="event-side-image">
-          </div>
-          <div class="event-content">
-            <p class="event-tagline" data-i18n="mehndiTag">The Art of Love</p>
-            <h3 class="event-name" data-i18n="mehndiName">Mehndi</h3>
-            <p class="event-desc" data-i18n="mehndiDesc">An intimate afternoon of intricate henna artistry, music, and
-              celebration with close family and friends.</p>
+        <!-- Split View Mehndi -->
+        <div class="dual-event reveal" data-event-type="mehndi">
+          <div class="dual-event-side groom-side">
+            <div class="side-label">Groom's Side</div>
+            <p class="event-tagline" data-i18n="mehndiTag">Auspicious Beginnings</p>
+            <h3 class="event-name" data-i18n="mehndiName">Mehndi Ceremony</h3>
             <div class="event-details">
               <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <rect x="3" y="4" width="18" height="18" rx="2" />
-                  <path d="M16 2v4M8 2v4M3 10h18" />
-                </svg>
-                <span data-i18n="mehndiDate">April 21, 2026</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <span data-i18n="mehndiDate">Tuesday, 21 April 2026</span>
               </div>
               <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <circle cx="12" cy="12" r="10" />
-                  <path d="M12 6v6l4 2" />
-                </svg>
-                <span data-i18n="mehndiTime">9:00 AM onwards</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                <span data-i18n="mehndiTime">9:00 AM</span>
               </div>
               <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
-                  <circle cx="12" cy="10" r="3" />
-                </svg>
-                <span data-i18n="mehndiVenue">Home: 14/78 Trilokpuri</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span data-i18n="mehndiVenueGroom">Home: 14/78 Trilokpuri, Delhi</span>
+              </div>
+            </div>
+          </div>
+          <div class="dual-event-center">
+            <img src="assets/gallery_4.png" alt="Mehndi" class="dual-event-img">
+            <div class="dual-event-number">01</div>
+          </div>
+          <div class="dual-event-side bride-side">
+            <div class="side-label">Bride's Side</div>
+            <p class="event-tagline" data-i18n="mehndiTag">Auspicious Beginnings</p>
+            <h3 class="event-name" data-i18n="mehndiName">Mehndi Ceremony</h3>
+            <div class="event-details">
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <span data-i18n="mehndiDate">Tuesday, 21 April 2026</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                <span data-i18n="mehndiTime">9:00 AM</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span data-i18n="mehndiVenueBride">Haldar Niwas, Vaishali Nagar, Jaipur</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="event-item featured reveal">
+        <!-- Split View Sangeet -->
+        <div class="dual-event reveal" data-event-type="sangeet">
+          <div class="dual-event-side groom-side">
+            <div class="side-label">Groom's Side</div>
+            <p class="event-tagline" data-i18n="sangeetTag">The Night of Stars</p>
+            <h3 class="event-name" data-i18n="sangeetName">Sangeet</h3>
+            <div class="event-details">
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <span data-i18n="sangeetDate">Monday, 20 April 2026</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                <span data-i18n="sangeetTime">7:00 PM onwards</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span data-i18n="sangeetVenueGroom">The Royal Ballroom, Park Hyatt, Delhi</span>
+              </div>
+            </div>
+          </div>
+          <div class="dual-event-center">
+            <img src="assets/gallery_3.png" alt="Sangeet" class="dual-event-img">
+            <div class="dual-event-number">02</div>
+          </div>
+          <div class="dual-event-side bride-side">
+            <div class="side-label">Bride's Side</div>
+            <p class="event-tagline" data-i18n="sangeetTag">The Night of Stars</p>
+            <h3 class="event-name" data-i18n="sangeetName">Sangeet</h3>
+            <div class="event-details">
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <span data-i18n="sangeetDate">Monday, 20 April 2026</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                <span data-i18n="sangeetTime">7:00 PM onwards</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span data-i18n="sangeetVenueBride">Samode Palace, Jaipur</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="event-item featured reveal" data-event-type="wedding">
           <div class="event-image-container">
-            <div class="event-number">02</div>
+            <div class="event-number">03</div>
             <img src="assets/gallery_5.png" alt="Wedding Image" class="event-side-image">
           </div>
           <div class="event-content">
@@ -276,17 +332,16 @@
           </div>
         </div>
 
-        <div class="event-item reveal">
+        <div class="event-item reveal" data-event-type="reception">
           <div class="event-image-container">
-          <div class="event-number">03</div>
+          <div class="event-number">04</div>
           <img src="assets/gallery_6.png" alt="Reception Image" class="event-side-image">
         </div>
         <div class="event-content">
           <p class="event-tagline" data-i18n="receptionTag">A Grand Celebration</p>
           <h3 class="event-name" data-i18n="receptionName">Reception</h3>
           <p class="event-desc" data-i18n="receptionDesc">With great joy and happiness, Sri Somnath Das & Smt. Anima Das
-            request the pleasure of your company at the wedding reception of Kishore & Chandra. With Best Compliments:
-            Das Family.</p>
+            request the pleasure of your company at the wedding reception of Kishore & Chandra.</p>
           <div class="event-details">
             <div class="event-detail">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -349,35 +404,51 @@
       </div>
     </section>
 
-    <!-- ─── Venue ─── -->
+    <!-- ─── Venue Maps ─── -->
+    <!-- ─── Venue Maps ─── -->
     <section id="venue" class="section venue-section">
-      <div class="section-header">
-        <p class="section-label reveal" data-i18n="venueLabel">Where it all happens</p>
-        <h2 class="section-title reveal" data-i18n="venueTitle">The Venue</h2>
-      </div>
-      <div class="venue-card reveal">
-        <div class="venue-visual">
-          <div class="venue-placeholder">
-            <div class="venue-qr">
-              <img id="venueQr"
-                src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fmaps.app.goo.gl%2FpQo2wiowwueSvJX69&format=svg"
-                alt="QR Code — Scan for directions" class="venue-qr-img" width="180" height="180" loading="lazy">
-              <p class="venue-qr-label" data-i18n="venueQrLabel">Scan for directions</p>
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label reveal" data-i18n="venueLabel">Where it all happens</p>
+          <h2 class="section-title reveal" data-i18n="venueTitle">The Venues</h2>
+        </div>
+
+        <!-- Wedding Venue -->
+        <div class="venue-card-split reveal">
+          <div class="venue-map-embed">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.2785161474!2d77.1633!3d28.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d024620000001%3A0xe5a36329e7c3c54!2sMarina%20Dreams%20Banquet!5e0!3m2!1sen!2sin!4v1622549214300!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="venue-info-side">
+            <h3 class="venue-name" data-i18n="weddingName">Wedding Ceremony</h3>
+            <p class="venue-address" data-i18n="weddingVenue">MARINA DREAMS BANQUET, Wazirpur Industrial Area, Ashok Vihar, Delhi - 110052</p>
+            <div class="venue-qr-box">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.google.com/maps/search/?api=1%26query=Marina+Dreams+Banquet+Wazirpur+Delhi" alt="Wedding QR" class="venue-qr-img">
+              <span data-i18n="venueQrLabel">Scan for GPS</span>
             </div>
+            <a href="https://www.google.com/maps/search/?api=1&query=Marina+Dreams+Banquet+Wazirpur+Delhi" target="_blank" class="hero-cta" style="margin-top: 10px;">
+              <span data-i18n="venueDirections">Get Directions</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
           </div>
         </div>
-        <div class="venue-info">
-          <h3 class="venue-name" data-i18n="venueName">MARINA DREAMS BANQUET</h3>
-          <p class="venue-desc" data-i18n="venueDesc">B-72/5, Ring Rd, Block B, Wazirpur Industrial Area, Ashok Vihar,
-            Delhi, 110052</p>
-          <a href="https://maps.app.goo.gl/pQo2wiowwueSvJX69" target="_blank" rel="noopener" class="venue-directions">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
-              <circle cx="12" cy="10" r="3" />
-            </svg>
-            <span data-i18n="venueDirections">Get Directions</span>
-          </a>
-          <!-- <p class="venue-address" data-i18n="venueAddress">Village Samode, Tehsil Chomu, Jaipur</p> -->
+
+        <!-- Reception Venue -->
+        <div class="venue-card-split reveal">
+          <div class="venue-map-embed">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.8!2d77.29!3d28.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb5a00000001%3A0x289748b6c4b9d038!2sS.K%20Eastend%20Banquet!5e0!3m2!1sen!2sin!4v1622549214300!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="venue-info-side">
+            <h3 class="venue-name" data-i18n="receptionName">Reception</h3>
+            <p class="venue-address" data-i18n="receptionVenue">S.K EASTEND BANQUET, Mayur Vihar Extension, Delhi</p>
+            <div class="venue-qr-box">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.google.com/maps/search/?api=1%26query=SK+Eastend+Banquet+Mayur+Vihar+Delhi" alt="Reception QR" class="venue-qr-img">
+              <span data-i18n="venueQrLabel">Scan for GPS</span>
+            </div>
+            <a href="https://www.google.com/maps/search/?api=1&query=SK+Eastend+Banquet+Mayur+Vihar+Delhi" target="_blank" class="hero-cta" style="margin-top: 10px;">
+              <span data-i18n="venueDirections">Get Directions</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -405,24 +476,6 @@
     </footer>
 
   </main>
-
-  <!-- Music Button -->
-  <button id="musicToggle" class="wide-music-btn" aria-label="Toggle music" title="Music">
-    <svg class="music-icon music-on" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-      stroke-width="2">
-      <path d="M9 18V5l12-2v13" />
-      <circle cx="6" cy="18" r="3" />
-      <circle cx="18" cy="16" r="3" />
-    </svg>
-    <svg class="music-icon music-off" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-      stroke-width="2">
-      <path d="M9 18V5l12-2v13" />
-      <circle cx="6" cy="18" r="3" />
-      <circle cx="18" cy="16" r="3" />
-      <line x1="1" y1="1" x2="23" y2="23" stroke-width="2" />
-    </svg>
-    <span id="musicBtnLabel">PAUSE MUSIC</span>
-  </button>
 
   <audio id="bgMusic" loop preload="auto">
     <source src="assets/music.mp3" type="audio/mpeg">
