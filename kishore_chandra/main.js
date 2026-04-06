@@ -13,21 +13,27 @@
       cdDays: 'Days', cdHours: 'Hours', cdMin: 'Min', cdSec: 'Sec',
       countdownNote: 'Smt. Anima & Sri SOMNATH DAS cordially invite you',
       coupleLabel: 'Two souls, one journey', coupleTitle: 'The Couple',
-      groomFull: 'Kishore Das', groomParents: 'Beloved son of Smt. Anima & Sri Somnath Das',
-      groomBio: 'A dreamer with a golden heart, who believes every love story deserves a grand celebration.',
-      brideFull: 'Chandra Haldar', brideParents: 'Beloved daughter of the Haldar Family',
-      brideBio: 'An artist at heart, who paints the world with love, laughter, and infinite grace.',
+      groomFull: 'Kishore Das', groomParents: 'Son of Shri Somnath Das and Smt. Anima Das',
+      groomBio: 'A soul who finds poetry in the smallest of moments and beauty in a well thought out plan. He believes that anything worth doing is worth doing with intention, a little bit of art, and the right song playing in the background.',
+      brideFull: 'Chandra Haldar', brideParents: 'Daughter of Shri Ratan Haldar and Smt. Deepali Haldar',
+      brideBio: 'A woman who loves deeply and lives loudly, equally at home in a kitchen full of aromas as she is in a room full of people she adores. She takes her time with everything she chooses in life and honestly, given how well she chooses, nobody is complaining.',
+      storyLabel: 'How it all began', 
+      storyTitle: 'Our Story',
+      storyP1: '"I was not supposed to stay long that afternoon. One cup of black coffee, a quiet corner of the café, and back to my perfectly planned day. Then she walked in. Big glasses, a smile that somehow filled the room before she even sat down, and a bag so wonderfully overstuffed with chocolates, keychains and little trinkets that it looked like she had been quietly collecting the world, one small piece at a time. I do not know what exactly it was about that moment, but I forgot about leaving. I forgot about the plan entirely.',
+      storyP2: 'We talked for three hours that felt like twenty minutes. Somewhere in that conversation we found out that we both love Biryani with an intensity that is slightly unreasonable and completely non-negotiable. When we finally stepped out into the evening, we shared a cab home, sitting in that quiet backseat with the city lights blurring past the windows, neither of us in any hurry to reach our stop. I remember thinking somewhere on that ride that this felt like the beginning of something. I just did not know yet how much.',
+      storyP3: 'A few weeks later at the ice skating rink, she slipped and I caught her. Time slowed down just enough in that moment for our eyes to meet and say everything that words could not. That was it for me. And somewhere between that moment and everything that followed, we also somehow ended up at Barbeque Nation celebrating our anniversary. Our fake anniversary. We had invented a date, walked in like a couple who had been married for years, and sat there eating way too much and laughing even more. The waiter wished us and we thanked him with completely straight faces. I think that evening told me everything I needed to know about her and about us.',
+      storyP4: 'She is spontaneous and lives fully in every moment. I plan, I organise, I make spreadsheets for things that probably do not need spreadsheets. She makes me forget the plan. I help her find the destination. Together we dance like fools when no one is watching, eat like there is no tomorrow, and have very seriously agreed that Biryani counts as a love language. We are opposites who make perfect, beautiful sense of each other. And when we both knew this was it, we did what felt right. We brought our families into the same room. We had both quietly set it up, each of us nudging our parents toward that one evening without making it feel like a big thing, and somehow it was the easiest conversation anyone had ever had. Our families sat together, laughed together, and got along like they had known each other for years. We looked at each other across the room that evening and understood immediately why. Our parents are just carbon copies of us. Turns out, the chaos and the calm run in the family.',
+      storyP5: 'And now, we are getting married. For real this time. No fake anniversaries. I still cannot believe I get to say that.”',
+      familiesLabel: 'The roots of our love', familiesTitle: 'The Families',
+      dasFamilyDesc: 'The Das family carries a legacy rooted in simplicity, strength, and deep cultural values. Known for their warmth and grounded nature, they believe in growing together while staying connected to their traditions. Every celebration in the Das household is filled with laughter, togetherness, and a sense of belonging—whether its sharing stories over a meal or coming together during festivals like Durga Puja. They value respect, resilience, and relationships, building a home where love is expressed not just in words, but in everyday actions',
+      haldarFamilyDesc: 'The Haldar family is a beautiful blend of grace, tradition, and modern outlook. Known for their warmth and welcoming spirit, they embrace life with joy and elegance.Their home is one where traditions are cherished, yet individuality is celebrated. From festive gatherings to quiet moments of togetherness, the Haldar family reflects a deep sense of unity and affection. They believe in nurturing bonds that last a lifetime—where every relationship is built on trust, respect, and heartfelt connection',
       eventsLabel: 'Celebrations of Love', eventsTitle: 'The Festivities',
-      mehndiTag: 'Auspicious Beginnings', mehndiName: 'Mehndi Ceremony',
-      mehndiDesc: 'An intimate afternoon of intricate henna artistry, music, and celebration with close family and friends.',
-            mehndiDate: 'Tuesday, 21 April 2026', mehndiTime: '9:00 AM', 
-      mehndiVenueGroom: 'Home: 14/78 Trilokpuri, Delhi',
-      mehndiVenueBride: 'Haldar Niwas, Vaishali Nagar, Jaipur',
-      sangeetTag: 'The Night of Stars', sangeetName: 'Sangeet',
-      sangeetDesc: 'An enchanting evening of music, dance performances, and joyous celebrations under the stars.',
-      sangeetDate: 'Monday, 20 April 2026', sangeetTime: '7:00 PM onwards', 
-      sangeetVenueGroom: 'The Royal Ballroom, Park Hyatt, Delhi',
-      sangeetVenueBride: 'Samode Palace, Jaipur',
+      sangeetTag: 'The Night of Stars', sangeetName: 'Mehndi & Sangeet',
+      sangeetDate: 'Monday, 20 April 2026', sangeetTime: '7:00 PM',
+      sangeetVenueBride: '1722/17 gali no. 22/1 D-block shukla colony Mukundpur,  Delhi-110042', 
+      sangeetVenueGroom: '14/78 Trilokpuri, Delhi-110091',
+      baraatTag: 'The Grand Procession', baraatName: 'Baraat Departure',
+      baraatDate: 'Tuesday, 21 April 2026', baraatTime: '7:00 PM', baraatVenue: 'House no. 14/78 Trilokpuri, Delhi-110091',
       weddingTag: 'The Sacred Union', weddingName: 'Wedding Ceremony',
       weddingDesc: 'A joyous celebration as we tie the knot. We look forward to celebrating with you!',
       weddingDate: 'Tuesday, 21 April 2026', weddingTime: 'Welcome of Baraat: 8:00 PM', weddingVenue: 'MARINA DREAMS BANQUET, Wazirpur Industrial Area, Ashok Vihar, Delhi - 10052',
@@ -43,11 +49,11 @@
       venueDirections: 'Get Directions', venueAddress: 'Wazirpur Industrial Area, Delhi',
       venueQrLabel: 'Scan for directions',
       footerWaiting: "We look forward to celebrating with you!",
-      footerNote: 'Made with love',
+      footerNote: 'Made with ❤️ love',
     },
     hi: {
       sealHint: 'खोलने के लिए टैप करें',
-      navDay: 'शुभ दिन', navCouple: 'दूल्हा-दुल्हन', navEvents: 'कार्यक्रम', navGallery: 'गैलरी', navVenue: 'स्थान',
+      navDay: 'शुभ दिन', navCouple: 'दूल्हा-दुल्हन', navEvents: 'कार्यक्रम', navGallery: 'ग্যালরী', navVenue: 'स्थान',
       heroInvite: 'आप सादर आमंत्रित हैं',
       groomName: 'किशोर', brideName: 'चंद्रा',
       heroLocation: 'दिल्ली',
@@ -56,27 +62,29 @@
       cdDays: 'दिन', cdHours: 'घंटे', cdMin: 'मिनट', cdSec: 'सेकंड',
       countdownNote: 'श्रीमती अनिमा एवं श्री सोमनाथ दास आपको सादर आमंत्रित करते हैं',
       coupleLabel: 'दो आत्माएँ, एक सफ़र', coupleTitle: 'दूल्हा-दुल्हन',
-      groomFull: 'किशोर दास', groomParents: 'श्रीमती अनिमा एवं श्री सोमनाथ दास के सुपुत्र',
-      groomBio: 'सुनहरे दिल का एक सपने देखने वाला, जो मानता है कि हर प्रेम कहानी एक भव्य उत्सव की हक़दार है।',
-      brideFull: 'चंद्रा हालदार', brideParents: 'हालदार परिवार की सुपुत्री',
-      brideBio: 'दिल से एक कलाकार, जो दुनिया को प्यार, हँसी और अनंत ख़ूबसूरती से रंगती है।',
+      groomFull: 'किशोर दास', groomParents: 'श्री सोमनाथ दास एवं श्रीमती अनिमा दास के सुपुत्र',
+      groomBio: 'ऐसा व्यक्ति जो छोटी-छोटी बातों में कविता और हर योजना में सुंदरता ढूंढ लेता है। उनका मानना है कि करने योग्य कोई भी काम पूरे मन और कलात्मकता के साथ किया जाना चाहिए।',
+      brideFull: 'चंद्रा हालदार', brideParents: 'श्री रतन हालदार एवं श्रीमती दीपाली हालदार की सुपुत्री',
+      brideBio: 'ऐसी महिला जो गहराई से प्रेम करती है और उन्मुक्त होकर जीती है। वह जीवन में जो कुछ भी चुनती है, उसके लिए पूरा समय लेती है, और पूरी शिদ্দত के साथ उसे निभाती है।',
+      storyLabel: 'शुरुआत कैसे हुई', 
+      storyTitle: 'हमारी कहानी',
+      storyP1: '“उस दोपहर मेरा ज्यादा देर रुकने का इरादा नहीं था। बस एक कप ब्लैक कॉफी और अपने दिन की योजनाओं में वापस। तभी वह अंदर आई। बड़े चश्मे, एक ऐसी मुस्कान जिसने बैठने से पहले ही कमरे को भर दिया, और एक बैग जो चॉकलेट और चाबियों के गुच्छों से भरा हुआ था।”',
+      storyP2: '“मुझे नहीं पता कि उस पल में ऐसा क्या था, पर मैं जाना भूल गया। पूरी योजना ही भूल गया। हमने तीन घंटे तक बात की जो सिर्फ बीस मिनट जैसा लगा। उसी बातचीत के दौरान हमें पता चला कि हम दोनों को बिरयानी से एक अलग ही लगाव है।”',
+      storyP3: '“कुछ हफ़्तों बाद आइस स्केटिंग रिंक पर, वह फिसली और मैंने उसे संभाल लिया। उस पल में वक्त जैसे रुक गया। वही मेरे लिए वो पल था। और उसके बाद, हमने अपनी फर्जी एनिवर्सरी भी मनाई। हमने एक तारीख चुनी और ऐसे पहुंचे जैसे बरसों से साथ हों।”',
+      storyP4: '“वह सहज है और हर पल को जीती है। मैं योजना बनाता हूँ, स्प्रेडशीट्स बनाता हूँ। वह मुझे योजना भूलना सिखाती है। मैं उसे मंजिल ढूंढने में मदद करता हूँ। साथ में हम पागलों की तरह नाचते हैं और बिरयानी को अपनी प्रेम भाषा मानते हैं।”',
+      familiesLabel: 'हमारे प्रेम की जड़ें', familiesTitle: 'परिवार',
+      dasFamilyDesc: 'दास परिवार साদगी, शक्ति और गहरे सांस्कृतिक मूल्यों में विश्वास रखता है। अपनी गर्मजोशी के लिए जाने जाने वाले, वे अपनी परंपराओं से जुड़े रहकर साथ बढ़ने में विश्वास करते हैं।',
+      haldarFamilyDesc: 'हालदार परिवार शालीनता, परंपरा और आधुनिक दृष्टिकोण का एक सुंदर मिश्रण है। वे हर रिश्ते को विश्वास और सम्मान के साथ संजोते हैं।',
       eventsLabel: 'प्रेम के उत्सव', eventsTitle: 'कार्यक्रम',
-      mehndiTag: 'शुभ शुरुआत', mehndiName: 'मेहंदी और हल्दी',
-      mehndiDesc: 'परिवार और करीबी दोस्तों के साथ मेहंदी, फूलों और उत्सव की एक अंतरंग दोपहर।',
-            mehndiDate: 'मंगलवार, 21 अप्रैल 2026', mehndiTime: 'सुबह 9:00 बजे', 
-      mehndiVenueGroom: 'निवास: 14/78 त्रिलोकपुरी, दिल्ली',
-      mehndiVenueBride: 'हालदार निवास, वैशाली नगर, जयपुर',
-      sangeetTag: 'तारों भरी रात', sangeetName: 'संगीत',
-      sangeetDesc: 'तारों के नीचे संगीत, नृत्य प्रदर्शन और आनंदमय उत्सव की एक मनमोहक शाम।',
-      sangeetDate: 'सोमवार, 20 अप्रैल 2026', sangeetTime: 'शाम 7:00 बजे से', 
-      sangeetVenueGroom: 'द रॉयल बॉलरूम, दिल्ली',
-      sangeetVenueBride: 'सामोद पैलेस, जयपुर',
+      sangeetTag: 'तारों भरी रात', sangeetName: 'मेहंदी और संगीत',
+      baraatTag: 'शाही बारात', baraatName: 'बारात प्रस्थान',
+      baraatDate: 'मंगलवार, 21 अप्रैल 2026', baraatTime: 'शाम 4:00 बजे', baraatVenue: '14/78 त्रिलोकपुरी, दिल्ली',
       weddingTag: 'पवित्र बंधन', weddingName: 'विवाह',
       weddingDesc: 'दो आत्माओं का पवित्र मिलन, पारंपरिक रीति-रिवाजों के साथ।',
       weddingDate: 'मंगलवार, 21 अप्रैल 2026', weddingTime: 'बारात का स्वागत: रात 8:00 बजे', weddingVenue: 'मरीना ड्रीम्स बैंक्वेट, वज़ीरपुर, दिल्ली',
       receptionTag: 'एक भव्य उत्सव', receptionName: 'प्रीतिभोज (रिसेप्शन)',
       receptionDesc: 'श्री सोमनाथ दास एवं श्रीमती अनिमा दास आपको विवाह रिसेप्शन में सस्नेह आमंत्रित करते हैं।',
-      receptionDate: '23 अप्रैल, 2026', receptionTime: 'शाम 7:00 बजे से', receptionVenue: 'एस.के ईस्टएंड बैंक्वेट, मयूर विहार, दिल्ली',
+      receptionDate: '23 अप्रैल, 2026', receptionTime: 'शाम 7:00 बजे से', receptionVenue: 'एस.के ईस्टएंड बैंक्वेट, मयুর विहार, दिल्ली',
       galleryLabel: 'कैद किए गए पल', galleryTitle: 'गैलरी',
       galImg1: 'प्री-वेडिंग', galImg2: 'मेहंदी', galImg3: 'संगीत की रात',
       galImg4: 'हल्दी', galImg5: 'वचन', galImg6: 'सदा साथ',
@@ -94,22 +102,28 @@
       heroInvite: 'আপনি সাদর আমন্ত্রিত',
       groomName: 'কিশোর', brideName: 'চন্দ্রা',
       heroLocation: 'দিল্লি',
-      heroExplore: 'देखুন',
+      heroExplore: 'দেখুন',
       countdownLabel: 'মঙ্গলবার, ২১ এপ্রিল ২০২৬', countdownTitle: 'শুভ দিন',
       cdDays: 'দিন', cdHours: 'ঘণ্টা', cdMin: 'মিনিট', cdSec: 'সেকেন্ড',
       countdownNote: 'শ্রীমতী অনিমা ও শ্রী সোমনাথ দাস আপনাকে সাদর আমন্ত্রণ জানাচ্ছেন',
       coupleLabel: 'দুটি আত্মা, একটি পথ', coupleTitle: 'বর-কনে',
-      groomFull: 'কিশোর দাস', groomParents: 'শ্রীমতী অনিমা ও শ্রী সোমনাথ দাসের পুত্র',
-      groomBio: 'সোনার হৃদয়ের একজন স্বপ্নদ্বষ্টা, যিনি বিশ্বাস করেন প্রতিটি প্রেমের গল্প একটি মহান উদযাপনের যোগ্য।',
-      brideFull: 'চন্দ্রা হালদার', brideParents: 'হালদার পরিবারের কন্যা',
-      brideBio: 'হৃদয়ে একজন শিল্পী, যিনি পৃথিবীকে ভালোবাসা, হাসি আর অসীম সৌন্দর্যে রাঙিয়ে তোলেন।',
+      groomFull: 'কিশোর দাস', groomParents: 'শ্রী সোমনাথ দাস ও শ্রীমতী অনিমা দাসের পুত্র',
+      groomBio: 'একজন মানুষ যিনি মুহূর্তের মধ্যে কবিতা এবং প্রতিটি পরিকল্পনার মধ্যে সৌন্দর্য খুঁজে পান। তিনি বিশ্বাস করেন যে কোনও কাজ করার যোগ্য হলে তা নিষ্ঠা ও শিল্পের সাথে করা উচিত।',
+      brideFull: 'চন্দ্রা হালদার', brideParents: 'শ্রী রতন হালদার ও শ্রীমতী দীপালী হালদারের কন্যা',
+      brideBio: 'এমন একজন নারী যিনি গভীরভাবে ভালোবাসেন এবং প্রাণখুলে বাঁচেন। তিনি জীবনের প্রতিটি পছন্দ নিয়ে সময় নেন এবং সেই পছন্দগুলো নিখুঁত হয়।',
+      storyLabel: 'যেভাবে সব শুরু হয়েছিল', 
+      storyTitle: 'আমাদের গল্প',
+      storyP1: '“সেদিন বিকেলে বেশি সময় কাটানোর ইচ্ছা ছিল না। শুধু এক কাপ কফি আর আমার চেনা রুটিনে ফিরে যাওয়া। ঠিক তখনই সে এল। বড় চশমা, একটা হাসি যা বসার আগেই ঘরটাকে ভরিয়ে দিল।”',
+      storyP2: '“আমি জানি না ঠিক কি ছিল সেই মুহূর্তে, কিন্তু আমি ফিরে যাওয়ার কথা ভুলে গেলাম। পুরো পরিকল্পনাটাই ভুলে গেলাম। আমরা তিন ঘণ্টা কথা বললাম যা মাত্র কুড়ি মিনিট মনে হচ্ছিল। সেই কথাতেই জানলাম আমরা দুজনেই বিরিয়ানি খুব ভালোবাসি।”',
+      storyP3: '“কয়েক সপ্তাহ পরে আইস স্কেটিং রিঙ্কে সে পিছলে যাচ্ছিল আর আমি তাকে ধরে ফেললাম। সময় যেন থমকে গেল। সেই মুহূর্তেই আমি বুঝেছিলাম এটাই সেই মানুষটা। তারপর আমরা আমাদের সেই ভুয়া বিবাহবার্ষিকীও পালন করি।”',
+      storyP4: '“সে খুব সহজ এবং প্রতিটি মুহূর্তকে প্রাণভরে বাঁচে। আমি পরিকল্পনা করি, স্প্রেডশিট বানাই। সে আমাকে সব ভুলে থাকতে শেখায়। আমি তাকে গন্তব্য খুঁজে পেতে সাহায্য করি। আমরা বিরিয়ানিকেই আমাদের প্রেমের ভাষা মনে করি।”',
+      familiesLabel: 'আমাদের ভালোবাসার শিকড়', familiesTitle: 'পরিবারদ্বয়',
+      dasFamilyDesc: 'দাস পরিবার সরলতা, শক্তি এবং গভীর সাংস্কৃতিক ঐতিহ্যে বিশ্বাসী। তারা নিজেদের ঐতিহ্যকে আঁকড়ে ধরে একসাথে এগিয়ে চলায় বিশ্বাস করেন।',
+      haldarFamilyDesc: 'হালদার পরিবার আভিজাত্য, ঐতিহ্য এবং আধুনিকতার এক সুন্দর মিশেল। তারা প্রতিটি সম্পর্ককে বিশ্বাস ও সম্মানের সাথে গড়ে তোলেন।',
       eventsLabel: 'ভালোবাসার উদযাপন', eventsTitle: 'অনুষ্ঠানমালা',
-      mehndiTag: 'শুভ সূচনা', mehndiName: 'মেহেন্দি ও হলুদ অনুষ্ঠান',
-      mehndiDesc: 'পরিবার ও ঘনিষ্ঠ বন্ধুদের সাথে মেহেন্দি, ফুলের মেলা আর রূপকথার মতো এক সকাল।',
-      mehndiDate: 'মঙ্গলবার, ২১ এপ্রিল ২০২৬', mehndiTime: 'সকাল ৯:০০ টা', mehndiVenue: 'বাসভবন: ১৪/৭৮ ত্রিলোকপুরী, দিল্লি',
-      sangeetTag: 'তারাভরা রাত', sangeetName: 'সঙ্গীত',
-      sangeetDesc: 'তারার নীচে সঙ্গীত, নৃত্য পরিবেশনা ও আনন্দময় উদযাপনের এক মুগ্ধকর সন্ধ্যা।',
-      sangeetDate: 'সোমবার, ২০ এপ্রিল ২০২৬', sangeetTime: 'সন্ধ্যা ৭:০০ টা থেকে', sangeetVenue: 'দ্য রয়্যাল বলরুম',
+      sangeetTag: 'তারাভরা রাত', sangeetName: 'মেহেন্দি ও সঙ্গীত',
+      baraatTag: 'রাজকীয় বরযাত্রী', baraatName: 'বরযাত্রা প্রস্থান',
+      baraatDate: 'মঙ্গলবার, ২১ এপ্রিল ২০২৬', baraatTime: 'বিকাল ৪:০০ টা', baraatVenue: '১৪/৭৮ ত্রিলোকপুরী, দিল্লি',
       weddingTag: 'পবিত্র মিলন', weddingName: 'বিবাহ',
       weddingDesc: 'দুই আত্মার পবিত্র মিলন, ঐতিহ্যবাহী বৈদিক রীতিতে রাজকীয় জাঁকজমকে।',
       weddingDate: 'মঙ্গলবার, ২১ এপ্রিল ২০২৬', weddingTime: 'বরযাত্রী বরণ: রাত ৮:০০ টা', weddingVenue: 'মেরিন ড্রীমস ব্যাংকোয়েট, দিল্লি',
@@ -205,23 +219,16 @@
     const langLabel = document.querySelector('.lang-label');
     if (langLabel) langLabel.textContent = LANG_LABELS[lang];
 
-    // UPDATED FILTERING LOGIC
     if (currentSide) {
       document.querySelectorAll('.event-item').forEach(el => {
         const type = el.getAttribute('data-event-type');
-        if (type === 'mehndi' || type === 'sangeet') {
+        if (type === 'mehndi' || type === 'sangeet' || type === 'pre-wedding') {
           el.classList.remove('side-filtered-out');
         } else {
           el.classList.add('side-filtered-out');
         }
       });
-      // Also potentially hide Wedding/Reception nav links
-      document.querySelectorAll('.nav-links a, #mobileMenu a').forEach(a => {
-        const href = a.getAttribute('href');
-        // Currently we don't have enough refined nav but we could if needed.
-      });
     } else {
-      // No side parameter: Show all 4 events
       document.querySelectorAll('.event-item').forEach(el => {
         el.classList.remove('side-filtered-out');
       });
@@ -422,6 +429,67 @@
     }, { passive: true });
   }
 
+  function initHeroAnimations() {
+    const heroParticles = document.getElementById('heroParticles');
+    if (!heroParticles) return;
+
+    for (let i = 0; i < 25; i++) {
+      const p = document.createElement('div');
+      p.className = 'particle';
+      const size = Math.random() * 6 + 4;
+      p.style.width = size + 'px';
+      p.style.height = size + 'px';
+      p.style.left = Math.random() * 100 + '%';
+      p.style.animationDuration = (Math.random() * 8 + 8) + 's';
+      p.style.animationDelay = (Math.random() * 10) + 's';
+      heroParticles.appendChild(p);
+    }
+  }
+
+  function initLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = lightbox?.querySelector('.lightbox-image');
+    const lightboxCaption = lightbox?.querySelector('.lightbox-caption');
+    const closeBtn = lightbox?.querySelector('.lightbox-close');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    if (!lightbox || !lightboxImg) return;
+
+    galleryItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const img = item.querySelector('img');
+        const caption = item.querySelector('.gallery-hover span')?.textContent;
+        if (img) {
+          lightboxImg.src = img.src;
+          if (lightboxCaption) lightboxCaption.textContent = caption || '';
+          lightbox.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        }
+      });
+    });
+
+    const closeLightbox = () => {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+      setTimeout(() => {
+        if (lightboxImg) lightboxImg.src = '';
+      }, 500);
+    };
+
+    closeBtn?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      closeLightbox();
+    });
+
+    lightbox.addEventListener('click', closeLightbox);
+    
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+        closeLightbox();
+      }
+    });
+  }
+
   function init() {
     initSeal();
     initNavigation();
@@ -429,6 +497,8 @@
     initScrollReveal();
     initCountdown();
     initHeroParallax();
+    initHeroAnimations();
+    initLightbox();
   }
 
   if (document.readyState === 'loading') {

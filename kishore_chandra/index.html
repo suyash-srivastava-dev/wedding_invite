@@ -4,13 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kishore & Chandra — Wedding Invitation</title>
+  <title>Kishore & Chandra — A Celebration of Love</title>
   <meta name="description"
-    content="You are cordially invited to celebrate the wedding of Kishore & Chandra — December 15, 2026">
+    content="You are cordially invited to celebrate the wedding of Kishore & Chandra — April 21, 2026. Join us for a journey of three days.">
+
+  <!-- Open Graph / WhatsApp / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kishoreandchandra.wedding">
+  <meta property="og:title" content="Kishore ❤️ Chandra — Wedding Invitation">
+  <meta property="og:description"
+    content="We invite you to witness our sacred union on April 21, 2026. Tap to open the invitation.">
+  <meta property="og:image" content="assets/og_thumb.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Noto+Serif+Bengali:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Great+Vibes&family=Noto+Serif+Bengali:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -90,8 +99,10 @@
 
     <!-- ─── Hero ─── -->
     <section id="hero" class="hero">
+      <div class="hero-bg"></div>
       <div class="hero-pattern"></div>
       <div class="hero-overlay"></div>
+      <div class="hero-particles" id="heroParticles"></div>
       <div class="hero-corners">
         <div class="corner corner-tl"></div>
         <div class="corner corner-tr"></div>
@@ -99,8 +110,11 @@
         <div class="corner corner-br"></div>
       </div>
       <div class="hero-content">
+        <svg class="hero-flourish" viewBox="0 0 100 20">
+          <path d="M0,10 Q25,0 50,10 T100,10" fill="none" stroke="currentColor" stroke-width="1" />
+        </svg>
         <p class="hero-pretext anim-fade" data-i18n="heroInvite">You are cordially invited</p>
-        <div class="hero-names anim-fade anim-d1">
+        <div class="hero-names">
           <h1 class="hero-name" data-i18n="groomName">Kishore</h1>
           <div class="hero-amp-block">
             <span class="hero-amp-line"></span>
@@ -169,10 +183,11 @@
               style="width: 100%; height: 100%; object-fit: cover;">
             <div class="couple-photo-frame"></div>
           </div>
-          <h3 class="couple-name" data-i18n="groomFull">Kishore Das</h3>
-          <p class="couple-parent" data-i18n="groomParents">Son of Mr. Rajesh & Mrs. Sunita Das</p>
-          <p class="couple-bio" data-i18n="groomBio">A dreamer with a golden heart, who believes every love story
-            deserves a grand celebration.</p>
+          <h3 class="couple-name">Kishore Das</h3>
+          <p class="couple-parent" data-i18n="groomParents">Son of Shri Somnath Das and Smt. Anima Das</p>
+          <!-- <p class="couple-bio" data-i18n="groomBio">A soul who finds poetry in the smallest of moments and beauty in a
+            well thought out plan. He believes that anything worth doing is worth doing with intention, a little bit of
+            art, and the right song playing in the background.</p> -->
         </div>
         <div class="couple-divider reveal">
           <div class="couple-divider-line"></div>
@@ -188,10 +203,87 @@
               style="width: 100%; height: 100%; object-fit: cover;">
             <div class="couple-photo-frame"></div>
           </div>
-          <h3 class="couple-name" data-i18n="brideFull">Chandra Haldar</h3>
-          <p class="couple-parent" data-i18n="brideParents">Daughter of Mr. Vikram & Mrs. Anjali Haldar</p>
-          <p class="couple-bio" data-i18n="brideBio">An artist at heart, who paints the world with love, laughter, and
-            infinite grace.</p>
+          <h3 class="couple-name">Chandra Haldar</h3>
+          <p class="couple-parent" data-i18n="brideParents">Daughter of Shri Ratan Haldar and Smt. Deepali Haldar</p>
+          <!-- <p class="couple-bio" data-i18n="brideBio">A woman who loves deeply and lives loudly, equally at home in a
+            kitchen full of aromas as she is in a room full of people she adores. She takes her time with everything she
+            chooses in life and honestly, given how well she chooses, nobody is complaining.</p> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Our Story ─── -->
+    <section id="story" class="section story-section">
+      <div class="section-header">
+        <p class="section-label reveal" data-i18n="storyLabel">How it all began</p>
+        <h2 class="section-title reveal" data-i18n="storyTitle">Our Story</h2>
+      </div>
+      <div class="container reveal">
+        <div class="story-content">
+          <div class="story-text-block">
+            <p class="story-para" data-i18n="storyP1">
+              "I was not supposed to stay long that afternoon. One cup of black coffee, a quiet corner of the café, and
+              back to my perfectly planned day. Then she walked in. Big glasses, a smile that somehow filled the room
+              before she even sat down, and a bag so wonderfully overstuffed with chocolates, keychains and little
+              trinkets that it looked like she had been quietly collecting the world, one small piece at a time. I do
+              not know what exactly it was about that moment, but I forgot about leaving. I forgot about the plan
+              entirely."
+            </p>
+            <p class="story-para" data-i18n="storyP2">
+              "We talked for three hours that felt like twenty minutes. Somewhere in that conversation we found out that
+              we both love Biryani with an intensity that is slightly unreasonable and completely non-negotiable. When
+              we finally stepped out into the evening, we shared a cab home, sitting in that quiet backseat with the
+              city lights blurring past the windows, neither of us in any hurry to reach our stop. I remember thinking
+              somewhere on that ride that this felt like the beginning of something. I just did not know yet how much"
+            </p>
+            <p class="story-para" data-i18n="storyP3">
+              "A few weeks later at the ice skating rink, she slipped and I caught her. Time slowed down just enough in
+              that moment for our eyes to meet and say everything that words could not. That was it for me. And
+              somewhere between that moment and everything that followed, we also somehow ended up at Barbeque Nation
+              celebrating our anniversary. Our fake anniversary. We had invented a date, walked in like a couple who had
+              been married for years, and sat there eating way too much and laughing even more. The waiter wished us and
+              we thanked him with completely straight faces. I think that evening told me everything I needed to know
+              about her and about us."
+            </p>
+            <p class="story-para" data-i18n="storyP4">
+              "She is spontaneous and lives fully in every moment. I plan, I organise, I make spreadsheets for things
+              that probably do not need spreadsheets. She makes me forget the plan. I help her find the destination.
+              Together we dance like fools when no one is watching, eat like there is no tomorrow, and have very
+              seriously agreed that Biryani counts as a love language. We are opposites who make perfect, beautiful
+              sense of each other. And when we both knew this was it, we did what felt right. We brought our families
+              into the same room. We had both quietly set it up, each of us nudging our parents toward that one evening
+              without making it feel like a big thing, and somehow it was the easiest conversation anyone had ever had.
+              Our families sat together, laughed together, and got along like they had known each other for years. We
+              looked at each other across the room that evening and understood immediately why. Our parents are just
+              carbon copies of us. Turns out, the chaos and the calm run in the family."
+            </p>
+            <p class="story-para" data-i18n="storyP5">
+              "And now, we are getting married. For real this time. No fake anniversaries. I still cannot believe I get
+              to say that.”"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Families ─── -->
+    <section id="families" class="section families-section">
+      <div class="section-header">
+        <p class="section-label reveal" data-i18n="familiesLabel">The roots of our love</p>
+        <h2 class="section-title reveal" data-i18n="familiesTitle">The Families</h2>
+      </div>
+      <div class="families-grid">
+        <div class="family-card reveal">
+          <h3 class="family-name">The Das Family</h3>
+          <p class="family-desc" data-i18n="dasFamilyDesc">The Das family carries a legacy rooted in simplicity,
+            strength, and deep cultural values. Known for their warmth and grounded nature, they believe in growing
+            together while staying connected to their traditions.</p>
+        </div>
+        <div class="family-card reveal anim-d1">
+          <h3 class="family-name">The Haldar Family</h3>
+          <p class="family-desc" data-i18n="haldarFamilyDesc">The Haldar family is a beautiful blend of grace,
+            tradition, and modern outlook. Known for their warmth and welcoming spirit, they embrace life with joy and
+            elegance.</p>
         </div>
       </div>
     </section>
@@ -203,93 +295,100 @@
         <h2 class="section-title reveal" data-i18n="eventsTitle">The Festivities</h2>
       </div>
       <div class="events-timeline">
-        <!-- Split View Mehndi -->
-        <div class="dual-event reveal" data-event-type="mehndi">
-          <div class="dual-event-side groom-side">
-            <div class="side-label">Groom's Side</div>
-            <p class="event-tagline" data-i18n="mehndiTag">Auspicious Beginnings</p>
-            <h3 class="event-name" data-i18n="mehndiName">Mehndi Ceremony</h3>
-            <div class="event-details">
-              <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
-                <span data-i18n="mehndiDate">Tuesday, 21 April 2026</span>
-              </div>
-              <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-                <span data-i18n="mehndiTime">9:00 AM</span>
-              </div>
-              <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span data-i18n="mehndiVenueGroom">Home: 14/78 Trilokpuri, Delhi</span>
-              </div>
-            </div>
-          </div>
-          <div class="dual-event-center">
-            <img src="assets/gallery_4.png" alt="Mehndi" class="dual-event-img">
-            <div class="dual-event-number">01</div>
-          </div>
-          <div class="dual-event-side bride-side">
-            <div class="side-label">Bride's Side</div>
-            <p class="event-tagline" data-i18n="mehndiTag">Auspicious Beginnings</p>
-            <h3 class="event-name" data-i18n="mehndiName">Mehndi Ceremony</h3>
-            <div class="event-details">
-              <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
-                <span data-i18n="mehndiDate">Tuesday, 21 April 2026</span>
-              </div>
-              <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-                <span data-i18n="mehndiTime">9:00 AM</span>
-              </div>
-              <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span data-i18n="mehndiVenueBride">Haldar Niwas, Vaishali Nagar, Jaipur</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Split View Sangeet -->
-        <div class="dual-event reveal" data-event-type="sangeet">
+        <!-- Split View Sangeet/Mehndi -->
+        <div class="dual-event reveal" data-event-type="pre-wedding">
           <div class="dual-event-side groom-side">
             <div class="side-label">Groom's Side</div>
             <p class="event-tagline" data-i18n="sangeetTag">The Night of Stars</p>
-            <h3 class="event-name" data-i18n="sangeetName">Sangeet</h3>
+            <h3 class="event-name" data-i18n="sangeetName">Mehndi & Sangeet</h3>
             <div class="event-details">
               <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="3" y="4" width="18" height="18" rx="2" />
+                  <path d="M16 2v4M8 2v4M3 10h18" />
+                </svg>
                 <span data-i18n="sangeetDate">Monday, 20 April 2026</span>
               </div>
               <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 6v6l4 2" />
+                </svg>
                 <span data-i18n="sangeetTime">7:00 PM onwards</span>
               </div>
               <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
                 <span data-i18n="sangeetVenueGroom">The Royal Ballroom, Park Hyatt, Delhi</span>
               </div>
             </div>
           </div>
           <div class="dual-event-center">
             <img src="assets/gallery_3.png" alt="Sangeet" class="dual-event-img">
-            <div class="dual-event-number">02</div>
+            <div class="dual-event-number">01</div>
           </div>
           <div class="dual-event-side bride-side">
             <div class="side-label">Bride's Side</div>
             <p class="event-tagline" data-i18n="sangeetTag">The Night of Stars</p>
-            <h3 class="event-name" data-i18n="sangeetName">Sangeet</h3>
+            <h3 class="event-name" data-i18n="sangeetName">Mehndi & Sangeet</h3>
             <div class="event-details">
               <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="3" y="4" width="18" height="18" rx="2" />
+                  <path d="M16 2v4M8 2v4M3 10h18" />
+                </svg>
                 <span data-i18n="sangeetDate">Monday, 20 April 2026</span>
               </div>
               <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 6v6l4 2" />
+                </svg>
                 <span data-i18n="sangeetTime">7:00 PM onwards</span>
               </div>
               <div class="event-detail">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
                 <span data-i18n="sangeetVenueBride">Samode Palace, Jaipur</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Baraat Departure -->
+        <div class="event-item reveal" data-event-type="baraat">
+          <div class="event-image-container">
+            <div class="event-number">02</div>
+            <img src="assets/barat.png" alt="Baraat" class="event-side-image">
+          </div>
+          <div class="event-content">
+            <p class="event-tagline" data-i18n="baraatTag">The Grand Procession</p>
+            <h3 class="event-name" data-i18n="baraatName">Baraat Departure</h3>
+            <div class="event-details">
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="3" y="4" width="18" height="18" rx="2" />
+                  <path d="M16 2v4M8 2v4M3 10h18" />
+                </svg>
+                <span data-i18n="baraatDate">Tuesday, 21 April 2026</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 6v6l4 2" />
+                </svg>
+                <span data-i18n="baraatTime">7:00 PM</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <span data-i18n="baraatVenue">14/78 Trilokpuri, Delhi</span>
               </div>
             </div>
           </div>
@@ -298,13 +397,13 @@
         <div class="event-item featured reveal" data-event-type="wedding">
           <div class="event-image-container">
             <div class="event-number">03</div>
-            <img src="assets/gallery_5.png" alt="Wedding Image" class="event-side-image">
+            <img src="assets/wedding.png" alt="Wedding Image" class="event-side-image">
           </div>
           <div class="event-content">
             <p class="event-tagline" data-i18n="weddingTag">The Sacred Union</p>
             <h3 class="event-name" data-i18n="weddingName">Wedding</h3>
-            <p class="event-desc" data-i18n="weddingDesc">The sacred union of two souls, celebrated with traditional
-              Vedic rituals amidst royal splendor.</p>
+            <!-- <p class="event-desc" data-i18n="weddingDesc">The sacred union of two souls, celebrated with traditional
+              Vedic rituals amidst royal splendor.</p> -->
             <div class="event-details">
               <div class="event-detail">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -334,39 +433,40 @@
 
         <div class="event-item reveal" data-event-type="reception">
           <div class="event-image-container">
-          <div class="event-number">04</div>
-          <img src="assets/gallery_6.png" alt="Reception Image" class="event-side-image">
-        </div>
-        <div class="event-content">
-          <p class="event-tagline" data-i18n="receptionTag">A Grand Celebration</p>
-          <h3 class="event-name" data-i18n="receptionName">Reception</h3>
-          <p class="event-desc" data-i18n="receptionDesc">With great joy and happiness, Sri Somnath Das & Smt. Anima Das
-            request the pleasure of your company at the wedding reception of Kishore & Chandra.</p>
-          <div class="event-details">
-            <div class="event-detail">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <rect x="3" y="4" width="18" height="18" rx="2" />
-                <path d="M16 2v4M8 2v4M3 10h18" />
-              </svg>
-              <span data-i18n="receptionDate">April 23, 2026</span>
-            </div>
-            <div class="event-detail">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <circle cx="12" cy="12" r="10" />
-                <path d="M12 6v6l4 2" />
-              </svg>
-              <span data-i18n="receptionTime">7:00 PM onwards</span>
-            </div>
-            <div class="event-detail">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
-                <circle cx="12" cy="10" r="3" />
-              </svg>
-              <span data-i18n="receptionVenue">S.K EASTEND BANQUET, Mayur Vihar Extension, Delhi</span>
+            <div class="event-number">04</div>
+            <img src="assets/reception.png" alt="Reception Image" class="event-side-image">
+          </div>
+          <div class="event-content">
+            <p class="event-tagline" data-i18n="receptionTag">A Grand Celebration</p>
+            <h3 class="event-name" data-i18n="receptionName">Reception</h3>
+            <!-- <p class="event-desc" data-i18n="receptionDesc">With great joy and happiness, Sri Somnath Das & Smt. Anima
+              Das
+              request the pleasure of your company at the wedding reception of Kishore & Chandra.</p> -->
+            <div class="event-details">
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="3" y="4" width="18" height="18" rx="2" />
+                  <path d="M16 2v4M8 2v4M3 10h18" />
+                </svg>
+                <span data-i18n="receptionDate">April 23, 2026</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 6v6l4 2" />
+                </svg>
+                <span data-i18n="receptionTime">7:00 PM onwards</span>
+              </div>
+              <div class="event-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <span data-i18n="receptionVenue">S.K EASTEND BANQUET, Mayur Vihar Extension, Delhi</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
     </section>
 
@@ -377,34 +477,33 @@
         <h2 class="section-title reveal" data-i18n="galleryTitle">Gallery</h2>
       </div>
       <div class="gallery-grid">
-        <div class="gallery-item gallery-tall reveal">
-          <img src="assets/gallery_1.png" alt="Pre-Wedding" style="width: 100%; height: 100%; object-fit: cover;">
+        <div class="gallery-item reveal">
+          <img src="assets/gallery_1.png" alt="Pre-Wedding">
           <div class="gallery-hover"><span data-i18n="galImg1">Pre-Wedding</span></div>
         </div>
         <div class="gallery-item reveal">
-          <img src="assets/gallery_2.png" alt="Mehendi" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="assets/gallery_2.png" alt="Mehendi">
           <div class="gallery-hover"><span data-i18n="galImg2">Mehendi</span></div>
         </div>
         <div class="gallery-item reveal">
-          <img src="assets/gallery_3.png" alt="Sangeet Night" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="assets/gallery_3.png" alt="Sangeet Night">
           <div class="gallery-hover"><span data-i18n="galImg3">Sangeet Night</span></div>
         </div>
-        <div class="gallery-item gallery-wide reveal">
-          <img src="assets/gallery_4.png" alt="Haldi Ceremony" style="width: 100%; height: 100%; object-fit: cover;">
+        <div class="gallery-item reveal">
+          <img src="assets/gallery_4.png" alt="Haldi Ceremony">
           <div class="gallery-hover"><span data-i18n="galImg4">Haldi Ceremony</span></div>
         </div>
         <div class="gallery-item reveal">
-          <img src="assets/gallery_5.png" alt="The Vows" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="assets/gallery_5.png" alt="The Vows">
           <div class="gallery-hover"><span data-i18n="galImg5">The Vows</span></div>
         </div>
         <div class="gallery-item reveal">
-          <img src="assets/gallery_6.png" alt="Together Forever" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="assets/gallery_6.png" alt="Together Forever">
           <div class="gallery-hover"><span data-i18n="galImg6">Together Forever</span></div>
         </div>
       </div>
     </section>
 
-    <!-- ─── Venue Maps ─── -->
     <!-- ─── Venue Maps ─── -->
     <section id="venue" class="section venue-section">
       <div class="container">
@@ -416,18 +515,27 @@
         <!-- Wedding Venue -->
         <div class="venue-card-split reveal">
           <div class="venue-map-embed">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.2785161474!2d77.1633!3d28.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d024620000001%3A0xe5a36329e7c3c54!2sMarina%20Dreams%20Banquet!5e0!3m2!1sen!2sin!4v1622549214300!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.519160501568!2d77.1689658115034!3d28.70402697552405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d031b39a4919b%3A0xde31ba368fdfc8d!2sMarina%20Dreams%20Banquets%20(Wazirpur)!5e0!3m2!1sen!2sin!4v1775509627582!5m2!1sen!2sin"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="venue-info-side">
             <h3 class="venue-name" data-i18n="weddingName">Wedding Ceremony</h3>
-            <p class="venue-address" data-i18n="weddingVenue">MARINA DREAMS BANQUET, Wazirpur Industrial Area, Ashok Vihar, Delhi - 110052</p>
+            <p class="venue-address" data-i18n="weddingVenue">MARINA DREAMS BANQUET, Wazirpur Industrial Area, Ashok
+              Vihar, Delhi - 110052</p>
             <div class="venue-qr-box">
-              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.google.com/maps/search/?api=1%26query=Marina+Dreams+Banquet+Wazirpur+Delhi" alt="Wedding QR" class="venue-qr-img">
+              <img
+                src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://maps.app.goo.gl/MnraGB11oqKULwYW9"
+                alt="Wedding QR" class="venue-qr-img">
               <span data-i18n="venueQrLabel">Scan for GPS</span>
             </div>
-            <a href="https://www.google.com/maps/search/?api=1&query=Marina+Dreams+Banquet+Wazirpur+Delhi" target="_blank" class="hero-cta" style="margin-top: 10px;">
+            <a href="https://maps.app.goo.gl/MnraGB11oqKULwYW9" target="_blank" class="hero-cta"
+              style="margin-top: 10px;">
               <span data-i18n="venueDirections">Get Directions</span>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
             </a>
           </div>
         </div>
@@ -435,18 +543,26 @@
         <!-- Reception Venue -->
         <div class="venue-card-split reveal">
           <div class="venue-map-embed">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.8!2d77.29!3d28.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb5a00000001%3A0x289748b6c4b9d038!2sS.K%20Eastend%20Banquet!5e0!3m2!1sen!2sin!4v1622549214300!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.224946020742!2d77.29419041149986!3d28.593027775584915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce485bdb8f3ff%3A0x228ea5a82791ded8!2sSK%20Eastend%20Banquet!5e0!3m2!1sen!2sin!4v1775509861269!5m2!1sen!2sin"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="venue-info-side">
             <h3 class="venue-name" data-i18n="receptionName">Reception</h3>
             <p class="venue-address" data-i18n="receptionVenue">S.K EASTEND BANQUET, Mayur Vihar Extension, Delhi</p>
             <div class="venue-qr-box">
-              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.google.com/maps/search/?api=1%26query=SK+Eastend+Banquet+Mayur+Vihar+Delhi" alt="Reception QR" class="venue-qr-img">
+              <img
+                src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://maps.app.goo.gl/FfFd8roeF6spjRA59"
+                alt="Reception QR" class="venue-qr-img">
               <span data-i18n="venueQrLabel">Scan for GPS</span>
             </div>
-            <a href="https://www.google.com/maps/search/?api=1&query=SK+Eastend+Banquet+Mayur+Vihar+Delhi" target="_blank" class="hero-cta" style="margin-top: 10px;">
+            <a href="https://maps.app.goo.gl/FfFd8roeF6spjRA59" target="_blank" class="hero-cta"
+              style="margin-top: 10px;">
               <span data-i18n="venueDirections">Get Directions</span>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
             </a>
           </div>
         </div>
@@ -470,12 +586,25 @@
         </div>
         <p class="footer-names">Kishore & Chandra</p>
         <p class="footer-date">21 · 04 · 2026</p>
-        <p class="footer-contact" style="font-size: 14px; margin-top: 10px; letter-spacing: 2px;">Mob: 9968583707</p>
+        <div class="footer-contact"
+          style="font-size: 14px; margin-top: 10px; letter-spacing: 2px; color: var(--accent);">
+          <p>9968583707</p>
+          <p>9560148655</p>
+          <p>9650378760</p>
+        </div>
         <p class="footer-note" data-i18n="footerNote">Made with ❤️</p>
       </div>
     </footer>
 
   </main>
+
+  <div id="lightbox" class="lightbox">
+    <div class="lightbox-close">&times;</div>
+    <div class="lightbox-content">
+      <img src="" alt="Full size image" class="lightbox-image">
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
 
   <audio id="bgMusic" loop preload="auto">
     <source src="assets/music.mp3" type="audio/mpeg">
