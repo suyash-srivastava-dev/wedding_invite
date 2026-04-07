@@ -36,7 +36,7 @@
       baraatDate: 'Tuesday, 21 April 2026', baraatTime: '7:00 PM', baraatVenue: 'House no. 14/78 Trilokpuri, Delhi-110091',
       weddingTag: 'The Sacred Union', weddingName: 'Wedding Ceremony',
       weddingDesc: 'A joyous celebration as we tie the knot. We look forward to celebrating with you!',
-      weddingDate: 'Tuesday, 21 April 2026', weddingTime: 'Welcome of Baraat: 8:00 PM', weddingVenue: 'MARINA DREAMS BANQUET, Wazirpur Industrial Area, Ashok Vihar, Delhi - 10052',
+      weddingDate: 'Tuesday, 21 April 2026', weddingTime: '', weddingVenue: 'MARINA DREAMS BANQUET, Wazirpur Industrial Area, Ashok Vihar, Delhi - 10052',
       receptionTag: 'A Grand Celebration', receptionName: 'Reception',
       receptionDesc: 'With great joy and happiness, Sri Somnath Das & Smt. Anima Das request the pleasure of your company at the wedding reception of Kishore & Chandra.',
       receptionDate: 'April 23, 2026', receptionTime: '7:00 PM onwards', receptionVenue: 'S.K EASTEND BANQUET, Mayur Vihar Extension, Delhi',
