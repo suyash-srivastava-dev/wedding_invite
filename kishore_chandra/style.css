@@ -1784,8 +1784,9 @@ button, input, select, textarea { font: inherit; color: inherit; }
   position: absolute;
   inset: 0;
   background: linear-gradient(to bottom, 
-    rgba(252, 251, 249, 0.4) 0%,
-    rgba(252, 251, 249, 0.9) 100%
+    rgba(252, 251, 249, 0.6) 0%,
+    rgba(252, 251, 249, 0.85) 50%,
+    rgba(252, 251, 249, 0.95) 100%
   );
 }
 
@@ -1797,16 +1798,17 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 .lp-badge {
   display: inline-block;
-  padding: 6px 16px;
-  background: rgba(197, 160, 89, 0.1);
-  color: var(--accent);
-  border: 1px solid rgba(197, 160, 89, 0.3);
+  padding: 6px 18px;
+  background: rgba(197, 160, 89, 0.15);
+  color: var(--accent-dark);
+  border: 1px solid rgba(197, 160, 89, 0.4);
   border-radius: 50px;
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
-  margin-bottom: 24px;
+  letter-spacing: 0.25em;
+  margin-bottom: 28px;
+  backdrop-filter: blur(4px);
 }
 
 .lp-title {
@@ -1815,10 +1817,16 @@ button, input, select, textarea { font: inherit; color: inherit; }
   line-height: 1.1;
   color: var(--text);
   margin-bottom: 24px;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .lp-title span {
-  color: var(--accent);
+  color: var(--accent-dark);
+  background: var(--gradient-gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
 }
 
 .lp-subtitle {
@@ -2240,7 +2248,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7));
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.85));
   z-index: 1;
 }
 
@@ -2259,7 +2267,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 
 .family-card:hover::before {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6));
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));
 }
 
 .family-name {
@@ -3026,9 +3034,11 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 .event-name {
   color: var(--accent-light) !important;
-  font-size: 3.5rem !important;
+  font-size: 2.2rem !important;
+  line-height: 1.1 !important;
   margin-top: 10px !important;
-  margin-bottom: 20px !important;
+  margin-bottom: 12px !important;
+  text-wrap: balance !important;
 }
 .event-desc {
   color: var(--ivory) !important;
@@ -3036,13 +3046,17 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 .event-details {
   background: rgba(0,0,0,0.2) !important;
-  padding: 24px !important;
+  padding: 20px !important;
   border-radius: 16px !important;
   border: 1px solid rgba(197, 160, 89, 0.2) !important;
-  margin-top: 30px !important;
+  margin-top: 20px !important;
+  width: 100% !important;
 }
 .event-detail {
   color: var(--ivory) !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  margin-bottom: 8px !important;
 }
 .event-detail svg {
   color: var(--accent) !important;
@@ -3051,9 +3065,9 @@ button, input, select, textarea { font: inherit; color: inherit; }
 /* ── Dual Event Split View ── */
 .dual-event {
   display: grid;
-  grid-template-columns: 1fr 450px 1fr;
+  grid-template-columns: minmax(320px, 1.2fr) minmax(280px, 400px) minmax(320px, 1.2fr);
   width: 100%;
-  gap: 40px;
+  gap: 15px;
   margin-bottom: 80px;
   align-items: center;
   justify-content: center;
@@ -3064,15 +3078,16 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .dual-event-side {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 10px;
   background: transparent;
-  padding: 40px;
+  padding: clamp(20px, 4vw, 35px);
   border-radius: 24px;
   border: 1px solid rgba(197, 160, 89, 0.2);
   transition: all 0.4s var(--ease);
   position: relative;
   overflow: hidden;
   z-index: 1;
+  width: 100%;
 }
 
 /* Background Layer (Color) */
@@ -3138,7 +3153,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .dual-event-center {
   position: relative;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   border-radius: 24px;
   overflow: hidden;
   border: 2px solid var(--accent);
